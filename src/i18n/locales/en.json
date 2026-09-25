@@ -1,0 +1,229 @@
+{
+  "header": {
+    "organization": "KOSME × TECH VALLEY",
+    "dateLocation": "OCTOBER 23, 2026 · SIHUB SAIGON INNOVATION HUB",
+    "perks": "Complimentary Grab Vouchers & Dining Codes Available for Delegates",
+    "title": "K-AI Global Value Chain - BUSINESS MATCHING",
+    "nav": {
+      "overview": "Overview",
+      "agenda": "Agenda",
+      "focusAreas": "Focus Areas",
+      "aiCompanies": "AI Companies",
+      "venue": "Venue & Perks"
+    },
+    "register": "Register Now"
+  },
+  "hero": {
+    "initiative": "KOREA-VIETNAM HIGH-TECH EXPANSION INITIATIVE",
+    "organizedBy": "Organized by KOSME • Tech Valley",
+    "title1": "BILATERAL SUMMIT 2026",
+    "title2": "K-AI GLOBAL",
+    "title3": "VALUE CHAIN",
+    "subtitle": "BUSINESS MATCHING",
+    "description": "Connecting Korea's leading AI, Robotics and Industrial Automation innovators with Vietnamese enterprises, infrastructure operators and technology leaders.",
+    "registerBtn": "REGISTER FOR 1:1 CONSULTATION",
+    "downloadPdf": "DOWNLOAD EVENT SCHEDULE PDF",
+    "date": "23 OCTOBER 2026",
+    "venue": "SIHUB · HO CHI MINH CITY",
+    "duration": "FULL DAY INTENSIVE",
+    "contact": {
+      "email": "giang@techvalleyvn.net",
+      "phone": "(+84) 982 238 621"
+    }
+  },
+  "snapshot": {
+    "date": "23 OCT 2026",
+    "venue": "SIHUB HO CHI MINH CITY",
+    "companies": "KOREAN AI COMPANIES",
+    "matching": "BUSINESS MATCHING"
+  },
+  "about": {
+    "headline": "BUILD CONNECTIONS. CREATE OPPORTUNITIES. ENTER THE GLOBAL VALUE CHAIN.",
+    "description": "A focused business matching platform designed to connect Korean AI innovators with Vietnamese enterprises and organizations for technology adoption, strategic partnerships, pilot projects and long-term market expansion.",
+    "discover": {
+      "title": "DISCOVER",
+      "text": "Explore emerging Korean AI and industrial technologies."
+    },
+    "connect": {
+      "title": "CONNECT",
+      "text": "Meet technology providers through curated 1:1 consultations."
+    },
+    "expand": {
+      "title": "EXPAND",
+      "text": "Develop pilots, partnerships, distribution and global value-chain opportunities."
+    }
+  },
+  "focusAreas": {
+    "title": "10 BUSINESS MATCHING AREAS",
+    "areas": [
+      {
+        "id": 1,
+        "title": "Manufacturing & Industrial",
+        "description": "Automated optical inspection, product defect algorithms, predictive maintenance, digital twins and industrial IoT data infrastructure."
+      },
+      {
+        "id": 2,
+        "title": "Robotics & Logistics",
+        "description": "Autonomous mobile robots (AMR), automated sorting centers, fleet route optimization and warehouse robotics OS."
+      },
+      {
+        "id": 3,
+        "title": "Agriculture & AgriTech",
+        "description": "Precision agriculture sensors, AI greenhouse climate control, aerial crop health analysis and automated harvesting systems."
+      },
+      {
+        "id": 4,
+        "title": "Airport & Public Transit",
+        "description": "Smart passenger flow simulation, biometric integrated terminal security, automated baggage handling and urban transit scheduling."
+      },
+      {
+        "id": 5,
+        "title": "Marketing, Retail & E-Commerce",
+        "description": "AI personalized recommendation engines, automated live-commerce video editing, omni-channel consumer behavior modeling and dynamic pricing."
+      },
+      {
+        "id": 6,
+        "title": "Maritime Cybersecurity",
+        "description": "Cyber defense for autonomous vessels, seaport data transmission protection, AIS spoofing countermeasures and maritime satellite security."
+      },
+      {
+        "id": 7,
+        "title": "Finance & FinTech",
+        "description": "Real-time algorithmic risk scoring, fraud prevention, automated financial profile analysis, asset allocation and cross-border payments."
+      },
+      {
+        "id": 8,
+        "title": "Energy & Renewable Energy",
+        "description": "Smart grid load forecasting, solar/wind battery storage management, microgrid reliability enhancement and carbon footprint monitoring."
+      },
+      {
+        "id": 9,
+        "title": "Smart Infrastructure & Smart Building",
+        "description": "Smart building HVAC optimization, structural deformation monitoring, smart parking networks and zero-carbon facility operations."
+      },
+      {
+        "id": 10,
+        "title": "AI, Computer Vision & Digital Transformation",
+        "description": "Enterprise foundation models, proprietary LLM distillation, edge computer vision stations and legacy IT system automation."
+      }
+    ]
+  },
+  "companies": {
+    "title": "10 KOREAN AI INNOVATORS",
+    "bookMeeting": "BOOK 1:1 MEETING"
+  },
+  "agenda": {
+    "title": "THE DAY AT A GLANCE",
+    "timeline": [
+      {
+        "time": "10:00 – 11:30",
+        "title": "BUSINESS CONSULTATION",
+        "description": "Morning 1:1 meetings between Korean AI innovators and Vietnamese enterprises."
+      },
+      {
+        "time": "11:40 – 13:20",
+        "title": "NETWORKING LUNCH",
+        "description": "Networking & KOSME briefing."
+      },
+      {
+        "time": "14:00 – 16:30",
+        "title": "BUSINESS CONSULTATION",
+        "description": "Deep-dive pilot & partnership discussions."
+      },
+      {
+        "time": "18:00 – 20:00",
+        "title": "EXECUTIVE DINNER",
+        "description": "VIP networking & investor meetup."
+      }
+    ],
+    "interpreter": "Korean–Vietnamese bilingual interpreters available."
+  },
+  "matching": {
+    "headline": "TURN INTEREST INTO PARTNERSHIP.",
+    "supportText": "Meet the right technology partner through curated 1:1 business consultations.",
+    "flow": {
+      "discover": "DISCOVER",
+      "select": "SELECT COMPANY",
+      "choose": "CHOOSE TIME",
+      "request": "REQUEST MEETING",
+      "consult": "BUSINESS CONSULTATION"
+    },
+    "cta": "BOOK A 1:1 MEETING"
+  },
+  "bookingModal": {
+    "title": "QUICK 1:1 COMPANY MEETING BOOKING",
+    "selectCompany": "Select Company",
+    "selectTime": "Select Time",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "options": {
+      "interpreter": "Korean–Vietnamese–English interpreter",
+      "pilot": "Pilot discussion",
+      "procurement": "Procurement",
+      "distribution": "Distribution",
+      "rd": "R&D partnership"
+    },
+    "cta": "CONFIRM 1:1 REQUEST"
+  },
+  "perks": {
+    "headline": "YOUR VISIT, FULLY SUPPORTED.",
+    "grab": {
+      "title": "GRAB VOUCHER",
+      "text": "Complimentary transportation support for registered delegates."
+    },
+    "lunch": {
+      "title": "NETWORKING LUNCH",
+      "text": "Connect with participating companies and business leaders."
+    },
+    "dinner": {
+      "title": "EXECUTIVE DINNER",
+      "text": "Exclusive evening networking with executives, government representatives and investors."
+    }
+  },
+  "venue": {
+    "title": "SIHUB SAIGON INNOVATION HUB",
+    "address": "8th Floor\n273 Dien Bien Phu\nDistrict 3\nHo Chi Minh City\nVietnam",
+    "getDirections": "GET DIRECTIONS"
+  },
+  "registration": {
+    "headline": "JOIN THE K-AI GLOBAL VALUE CHAIN",
+    "subtitle": "Register to participate in the Korea–Vietnam Business Matching Summit.",
+    "form": {
+      "name": "FULL NAME *",
+      "email": "CORPORATE EMAIL *",
+      "company": "ORGANIZATION / COMPANY *",
+      "phone": "MOBILE CONTACT *",
+      "industry": "PRIMARY INDUSTRY *",
+      "preferredPartner": "PREFERRED KOREAN AI PARTNER",
+      "objective": "CONSULTATION OBJECTIVE",
+      "objectives": {
+        "pilot": "Pilot",
+        "procurement": "Procurement",
+        "distribution": "Distribution",
+        "rd": "R&D Partnership",
+        "tech": "Technology Consultation",
+        "other": "Other"
+      },
+      "interpreter": "I would like Korean–Vietnamese interpretation support.",
+      "transportation": "I would like to receive transportation support information."
+    },
+    "cta": "CONFIRM SUMMIT REGISTRATION",
+    "calendar": "SCAN TO SAVE EVENT TO YOUR CALENDAR"
+  },
+  "contact": {
+    "title": "NEED ASSISTANCE?",
+    "person": "Ms. Giang",
+    "org": "Tech Valley",
+    "emailBtn": "EMAIL US",
+    "callBtn": "CALL SUPPORT"
+  },
+  "footer": {
+    "title": "K-AI GLOBAL VALUE CHAIN BUSINESS MATCHING 2026",
+    "orgs": "KOSME × TECH VALLEY",
+    "tagline": "Korea–Vietnam technology connection for the global value chain.",
+    "event": "EVENT",
+    "business": "BUSINESS",
+    "legal": "LEGAL",
+    "copyright": "© 2025 K-AI Global Value Chain Business Matching Summit. Hosted by KOSME & Tech Valley."
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "header": {
+    "organization": "KOSME × TECH VALLEY",
+    "dateLocation": "23 THÁNG 10, 2026 · SIHUB SAIGON INNOVATION HUB",
+    "perks": "Tặng mã Grab và voucher ăn uống cho đại biểu tham dự",
+    "title": "K-AI Global Value Chain - BUSINESS MATCHING",
+    "nav": {
+      "overview": "Tổng quan",
+      "agenda": "Lịch trình",
+      "focusAreas": "Lĩnh vực",
+      "aiCompanies": "Doanh nghiệp AI",
+      "venue": "Địa điểm & Đãi ngộ"
+    },
+    "register": "Đăng ký ngay"
+  },
+  "hero": {
+    "initiative": "SÁNG KIẾN MỞ RỘNG CÔNG NGHỆ CAO HÀN QUỐC-VIỆT NAM",
+    "organizedBy": "Đồng tổ chức bởi KOSME • Tech Valley",
+    "title1": "HỘI NGHỊ THƯỢNG ĐỈNH 2026",
+    "title2": "K-AI GLOBAL",
+    "title3": "VALUE CHAIN",
+    "subtitle": "KẾT NỐI KINH DOANH",
+    "description": "Kết nối trực tiếp các đơn vị tiên phong về Trí tuệ nhân tạo, Robotics và Tự động hóa công nghiệp hàng đầu của Hàn Quốc với các doanh nghiệp Việt Nam.",
+    "registerBtn": "ĐĂNG KÝ TƯ VẤN 1:1",
+    "downloadPdf": "TẢI LỊCH TRÌNH SỰ KIỆN PDF",
+    "date": "23 THÁNG 10, 2026",
+    "venue": "SIHUB · TP. HỒ CHÍ MINH",
+    "duration": "SỰ KIỆN CẢ NGÀY",
+    "contact": {
+      "email": "giang@techvalleyvn.net",
+      "phone": "(+84) 982 238 621"
+    }
+  },
+  "snapshot": {
+    "date": "23 THG 10 2026",
+    "venue": "SIHUB TP. HỒ CHÍ MINH",
+    "companies": "DOANH NGHIỆP AI HÀN QUỐC",
+    "matching": "KẾT NỐI KINH DOANH 1:1"
+  },
+  "about": {
+    "headline": "XÂY DỰNG KẾT NỐI. TẠO RA CƠ HỘI. THAM GIA CHUỖI GIÁ TRỊ TOÀN CẦU.",
+    "description": "Nền tảng kết nối kinh doanh chuyên sâu được thiết kế để kết nối các nhà đổi mới AI Hàn Quốc với các doanh nghiệp và tổ chức Việt Nam.",
+    "discover": {
+      "title": "KHÁM PHÁ",
+      "text": "Khám phá các công nghệ AI và công nghiệp mới nổi của Hàn Quốc."
+    },
+    "connect": {
+      "title": "KẾT NỐI",
+      "text": "Gặp gỡ các nhà cung cấp công nghệ thông qua các buổi tư vấn 1:1."
+    },
+    "expand": {
+      "title": "MỞ RỘNG",
+      "text": "Phát triển thử nghiệm, đối tác, phân phối và cơ hội chuỗi giá trị toàn cầu."
+    }
+  },
+  "focusAreas": {
+    "title": "10 LĨNH VỰC KẾT NỐI KINH DOANH",
+    "areas": [
+      {
+        "id": 1,
+        "title": "Sản xuất & Công nghiệp",
+        "description": "Kiểm tra quang học tự động, thuật toán phát hiện lỗi sản phẩm, bảo trì máy móc dự đoán, bản sao kỹ thuật số (digital twins)."
+      },
+      {
+        "id": 2,
+        "title": "Robot & Hậu cần",
+        "description": "Robot di động tự hành (AMR), trung tâm phân loại tự động, tối ưu hóa lộ trình đội xe và hệ điều hành robotics."
+      },
+      {
+        "id": 3,
+        "title": "Nông nghiệp & AgriTech",
+        "description": "Cảm biến nông nghiệp chính xác, điều hòa khí hậu nhà kính bằng AI, phân tích sức khỏe cây trồng và thu hoạch tự động."
+      },
+      {
+        "id": 4,
+        "title": "Sân bay & Giao thông công cộng",
+        "description": "Mô phỏng luồng hành khách, bảo mật nhà ga sinh trắc học, xử lý hành lý tự động và lập lịch trình giao thông đô thị."
+      },
+      {
+        "id": 5,
+        "title": "Tiếp thị, Bán lẻ & TMĐT",
+        "description": "Công cụ gợi ý cá nhân hóa bằng AI, tự động cắt ghép video cho live-commerce, mô hình hóa hành vi người tiêu dùng."
+      },
+      {
+        "id": 6,
+        "title": "An ninh mạng Hàng hải",
+        "description": "Phòng thủ mạng cho tàu tự hành, bảo vệ truyền dữ liệu cảng biển, chống giả mạo tín hiệu AIS và an ninh vệ tinh hàng hải."
+      },
+      {
+        "id": 7,
+        "title": "Tài chính & FinTech",
+        "description": "Chấm điểm rủi ro theo thuật toán, ngăn chặn gian lận, tự động phân tích hồ sơ tài chính, phân bổ tài sản."
+      },
+      {
+        "id": 8,
+        "title": "Năng lượng & Năng lượng tái tạo",
+        "description": "Dự báo phụ tải lưới điện, quản lý lưu trữ pin mặt trời/gió, nâng cao độ tin cậy lưới điện vi mô và giám sát dấu chân carbon."
+      },
+      {
+        "id": 9,
+        "title": "Hạ tầng & Tòa nhà thông minh",
+        "description": "Tối ưu hóa HVAC, giám sát độ biến dạng kết cấu công trình, bãi đỗ xe thông minh và vận hành không phát thải carbon."
+      },
+      {
+        "id": 10,
+        "title": "AI, Thị giác máy tính & Chuyển đổi số",
+        "description": "Mô hình nền tảng doanh nghiệp, chưng cất LLM độc quyền, trạm thị giác máy tính biên và tự động hóa hệ thống CNTT cũ."
+      }
+    ]
+  },
+  "companies": {
+    "title": "10 NHÀ ĐỔI MỚI AI HÀN QUỐC",
+    "bookMeeting": "ĐẶT LỊCH HẸN 1:1"
+  },
+  "agenda": {
+    "title": "LỊCH TRÌNH TÓM TẮT",
+    "timeline": [
+      {
+        "time": "10:00 – 11:30",
+        "title": "TƯ VẤN KINH DOANH",
+        "description": "Vòng gặp gỡ, kết nối thương mại 1:1 phiên sáng."
+      },
+      {
+        "time": "11:40 – 13:20",
+        "title": "TIỆC TRƯA KẾT NỐI",
+        "description": "Dùng bữa trưa kết hợp giao lưu và lắng nghe KOSME."
+      },
+      {
+        "time": "14:00 – 16:30",
+        "title": "TƯ VẤN KINH DOANH",
+        "description": "Phiên thảo luận chuyên sâu thử nghiệm & hợp tác."
+      },
+      {
+        "time": "18:00 – 20:00",
+        "title": "DẠ TIỆC VIP",
+        "description": "Tiệc tối thân mật cùng đại biểu và nhà đầu tư."
+      }
+    ],
+    "interpreter": "Có bố trí phiên dịch viên song ngữ Hàn - Việt."
+  },
+  "matching": {
+    "headline": "BIẾN SỰ QUAN TÂM THÀNH QUAN HỆ ĐỐI TÁC.",
+    "supportText": "Gặp gỡ đối tác công nghệ phù hợp thông qua các buổi tư vấn kinh doanh 1:1 được chọn lọc.",
+    "flow": {
+      "discover": "KHÁM PHÁ",
+      "select": "CHỌN CÔNG TY",
+      "choose": "CHỌN THỜI GIAN",
+      "request": "YÊU CẦU GẶP",
+      "consult": "TƯ VẤN KINH DOANH"
+    },
+    "cta": "ĐẶT LỊCH HẸN 1:1"
+  },
+  "bookingModal": {
+    "title": "ĐẶT LỊCH HẸN NHANH 1:1 VỚI DOANH NGHIỆP",
+    "selectCompany": "Chọn Công Ty",
+    "selectTime": "Chọn Thời Gian",
+    "morning": "Phiên Sáng",
+    "afternoon": "Phiên Chiều",
+    "options": {
+      "interpreter": "Phiên dịch viên công nghệ song ngữ Hàn - Việt - Anh",
+      "pilot": "Thảo luận thử nghiệm (Pilot)",
+      "procurement": "Mua sắm giải pháp",
+      "distribution": "Phân phối",
+      "rd": "Hợp tác R&D"
+    },
+    "cta": "XÁC NHẬN YÊU CẦU 1:1"
+  },
+  "perks": {
+    "headline": "TRẢI NGHIỆM CỦA BẠN ĐƯỢC HỖ TRỢ TOÀN DIỆN.",
+    "grab": {
+      "title": "TẶNG MÃ GRAB",
+      "text": "Tặng voucher di chuyển Grab (chiều đi/về) cho đại biểu đăng ký trước."
+    },
+    "lunch": {
+      "title": "TIỆC TRƯA KẾT NỐI",
+      "text": "Kết nối với các công ty tham gia và lãnh đạo doanh nghiệp."
+    },
+    "dinner": {
+      "title": "DẠ TIỆC VIP",
+      "text": "Tiệc tối độc quyền với giám đốc điều hành, đại diện chính phủ và nhà đầu tư."
+    }
+  },
+  "venue": {
+    "title": "SIHUB SAIGON INNOVATION HUB",
+    "address": "Tầng 8\n273 Điện Biên Phủ\nPhường 7, Quận 3\nTP. Hồ Chí Minh\nViệt Nam",
+    "getDirections": "CHỈ ĐƯỜNG"
+  },
+  "registration": {
+    "headline": "THAM GIA CHUỖI GIÁ TRỊ TOÀN CẦU K-AI",
+    "subtitle": "Đăng ký tham gia Hội nghị Thượng đỉnh Kết nối Kinh doanh Hàn-Việt.",
+    "form": {
+      "name": "HỌ VÀ TÊN ĐẠI BIỂU *",
+      "email": "EMAIL DOANH NGHIỆP *",
+      "company": "CƠ QUAN / CÔNG TY *",
+      "phone": "SỐ ĐIỆN THOẠI DI ĐỘNG *",
+      "industry": "LĨNH VỰC NGÀNH NGHỀ CHÍNH *",
+      "preferredPartner": "ĐỐI TÁC AI HÀN QUỐC MUỐN GẶP",
+      "objective": "MỤC TIÊU TƯ VẤN",
+      "objectives": {
+        "pilot": "Thử nghiệm",
+        "procurement": "Mua sắm",
+        "distribution": "Phân phối độc quyền",
+        "rd": "Hợp tác R&D",
+        "tech": "Tư vấn Công nghệ",
+        "other": "Khác"
+      },
+      "interpreter": "Tôi yêu cầu hỗ trợ phiên dịch song ngữ Hàn - Việt.",
+      "transportation": "Tôi muốn nhận mã giảm giá Grab di chuyển."
+    },
+    "cta": "XÁC NHẬN ĐĂNG KÝ THAM DỰ",
+    "calendar": "QUÉT ĐỂ LƯU SỰ KIỆN VÀO LỊCH"
+  },
+  "contact": {
+    "title": "CẦN HỖ TRỢ?",
+    "person": "Ms. Giang",
+    "org": "Tech Valley",
+    "emailBtn": "GỬI EMAIL",
+    "callBtn": "GỌI HỖ TRỢ"
+  },
+  "footer": {
+    "title": "K-AI GLOBAL VALUE CHAIN BUSINESS MATCHING 2026",
+    "orgs": "KOSME × TECH VALLEY",
+    "tagline": "Kết nối công nghệ công nghiệp và AI doanh nghiệp giữa Hàn Quốc và Việt Nam.",
+    "event": "SỰ KIỆN",
+    "business": "KINH DOANH",
+    "legal": "PHÁP LÝ",
+    "copyright": "© 2025 K-AI Global Value Chain Business Matching Summit. Hosted by KOSME & Tech Valley."
+  }
+}

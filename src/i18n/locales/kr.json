@@ -1,0 +1,229 @@
+{
+  "header": {
+    "organization": "KOSME × TECH VALLEY",
+    "dateLocation": "2026년 10월 23일 · SIHUB 호치민",
+    "perks": "참가자 대상 무료 차량 및 다이닝 바우처 제공",
+    "title": "K-AI 글로벌 밸류 체인 - 비즈니스 매칭",
+    "nav": {
+      "overview": "개요",
+      "agenda": "일정",
+      "focusAreas": "매칭 분야",
+      "aiCompanies": "참여 기업",
+      "venue": "행사장 및 혜택"
+    },
+    "register": "지금 등록하기"
+  },
+  "hero": {
+    "initiative": "한국-베트남 첨단 기술 확장 이니셔티브",
+    "organizedBy": "주최: KOSME • Tech Valley",
+    "title1": "양자 정상회의 2026",
+    "title2": "K-AI GLOBAL",
+    "title3": "VALUE CHAIN",
+    "subtitle": "비즈니스 매칭",
+    "description": "한국의 선도적인 AI, 로보틱스 및 산업 자동화 혁신 기업들과 베트남의 기업, 인프라 운영자 및 기술 리더들을 연결합니다.",
+    "registerBtn": "1:1 상담 등록하기",
+    "downloadPdf": "행사 일정표 PDF 다운로드",
+    "date": "2026년 10월 23일",
+    "venue": "SIHUB · 호치민 시",
+    "duration": "종일 행사",
+    "contact": {
+      "email": "giang@techvalleyvn.net",
+      "phone": "(+84) 982 238 621"
+    }
+  },
+  "snapshot": {
+    "date": "2026년 10월 23일",
+    "venue": "SIHUB 호치민",
+    "companies": "한국 AI 기업",
+    "matching": "비즈니스 매칭"
+  },
+  "about": {
+    "headline": "연결을 구축하고 기회를 창출하며 글로벌 밸류 체인에 진입하십시오.",
+    "description": "한국의 AI 혁신 기업과 베트남 기업 및 기관을 연결하여 기술 도입, 전략적 파트너십, 파일럿 프로젝트 및 장기적인 시장 확장을 위한 집중적인 비즈니스 매칭 플랫폼입니다.",
+    "discover": {
+      "title": "발견",
+      "text": "새롭게 떠오르는 한국의 AI 및 산업 기술을 탐색하십시오."
+    },
+    "connect": {
+      "title": "연결",
+      "text": "선별된 1:1 상담을 통해 기술 제공업체와 만나보십시오."
+    },
+    "expand": {
+      "title": "확장",
+      "text": "파일럿, 파트너십, 유통 및 글로벌 밸류 체인 기회를 개발하십시오."
+    }
+  },
+  "focusAreas": {
+    "title": "10대 비즈니스 매칭 분야",
+    "areas": [
+      {
+        "id": 1,
+        "title": "제조 및 산업",
+        "description": "자동 광학 검사, 제품 결함 알고리즘, 예측 유지 보수, 디지털 트윈 및 산업용 IoT 데이터 인프라."
+      },
+      {
+        "id": 2,
+        "title": "로보틱스 및 물류",
+        "description": "자율 이동 로봇(AMR), 자동 분류 센터, 차량 경로 최적화 및 창고 로보틱스 OS."
+      },
+      {
+        "id": 3,
+        "title": "농업 및 에그리테크",
+        "description": "정밀 농업 센서, AI 온실 기후 제어, 항공 작물 건강 분석 및 자동 수확 시스템."
+      },
+      {
+        "id": 4,
+        "title": "공항 및 대중교통",
+        "description": "스마트 승객 흐름 시뮬레이션, 생체 인식 통합 터미널 보안, 자동 수하물 처리 및 도시 교통 일정 관리."
+      },
+      {
+        "id": 5,
+        "title": "마케팅, 소매 및 전자 상거래",
+        "description": "AI 맞춤형 추천 엔진, 자동 라이브 커머스 비디오 편집, 옴니 채널 소비자 행동 모델링 및 동적 가격 책정."
+      },
+      {
+        "id": 6,
+        "title": "해양 사이버 보안",
+        "description": "자율 운항 선박을 위한 사이버 방어, 항구 데이터 전송 보호, AIS 스푸핑 방지 및 해양 위성 보안."
+      },
+      {
+        "id": 7,
+        "title": "금융 및 핀테크",
+        "description": "실시간 알고리즘 위험 평가, 사기 방지, 자동 재무 프로필 분석, 자산 배분 및 국경 간 지불."
+      },
+      {
+        "id": 8,
+        "title": "에너지 및 신재생 에너지",
+        "description": "스마트 그리드 부하 예측, 태양광/풍력 배터리 저장 관리, 마이크로 그리드 신뢰성 향상 및 탄소 발자국 모니터링."
+      },
+      {
+        "id": 9,
+        "title": "스마트 인프라 및 스마트 빌딩",
+        "description": "스마트 빌딩 HVAC 최적화, 구조 변형 모니터링, 스마트 주차 네트워크 및 탄소 제로 시설 운영."
+      },
+      {
+        "id": 10,
+        "title": "AI, 컴퓨터 비전 및 디지털 전환",
+        "description": "엔터프라이즈 파운데이션 모델, 독점 LLM 증류, 엣지 컴퓨터 비전 스테이션 및 레거시 IT 시스템 자동화."
+      }
+    ]
+  },
+  "companies": {
+    "title": "10개의 한국 AI 혁신 기업",
+    "bookMeeting": "1:1 미팅 예약"
+  },
+  "agenda": {
+    "title": "행사 일정 요약",
+    "timeline": [
+      {
+        "time": "10:00 – 11:30",
+        "title": "비즈니스 상담",
+        "description": "오전 1:1 비즈니스 미팅."
+      },
+      {
+        "time": "11:40 – 13:20",
+        "title": "네트워킹 오찬",
+        "description": "자유로운 네트워킹 및 KOSME 브리핑."
+      },
+      {
+        "time": "14:00 – 16:30",
+        "title": "비즈니스 상담",
+        "description": "심층 파일럿 및 파트너십 논의."
+      },
+      {
+        "time": "18:00 – 20:00",
+        "title": "임원 만찬",
+        "description": "VIP 네트워킹 및 투자자 밋업."
+      }
+    ],
+    "interpreter": "한국어-베트남어 이중 언어 통역사가 제공됩니다."
+  },
+  "matching": {
+    "headline": "관심을 파트너십으로 바꾸십시오.",
+    "supportText": "선별된 1:1 비즈니스 상담을 통해 적합한 기술 파트너를 만나보십시오.",
+    "flow": {
+      "discover": "발견",
+      "select": "기업 선택",
+      "choose": "시간 선택",
+      "request": "미팅 요청",
+      "consult": "비즈니스 상담"
+    },
+    "cta": "1:1 미팅 예약"
+  },
+  "bookingModal": {
+    "title": "빠른 1:1 기업 미팅 예약",
+    "selectCompany": "기업 선택",
+    "selectTime": "시간 선택",
+    "morning": "오전",
+    "afternoon": "오후",
+    "options": {
+      "interpreter": "한국어-베트남어-영어 통역사 지원",
+      "pilot": "파일럿 논의",
+      "procurement": "조달",
+      "distribution": "유통",
+      "rd": "R&D 파트너십"
+    },
+    "cta": "1:1 요청 확인"
+  },
+  "perks": {
+    "headline": "귀하의 방문을 전폭적으로 지원합니다.",
+    "grab": {
+      "title": "그랩 바우처",
+      "text": "등록된 대표단을 위한 무료 교통 지원."
+    },
+    "lunch": {
+      "title": "네트워킹 오찬",
+      "text": "참여 기업 및 비즈니스 리더와의 네트워킹."
+    },
+    "dinner": {
+      "title": "임원 만찬",
+      "text": "임원, 정부 대표 및 투자자들과의 독점적인 저녁 네트워킹."
+    }
+  },
+  "venue": {
+    "title": "SIHUB 사이공 이노베이션 허브",
+    "address": "8층\n273 Dien Bien Phu\n3군\n호치민 시\n베트남",
+    "getDirections": "길 찾기"
+  },
+  "registration": {
+    "headline": "K-AI 글로벌 밸류 체인에 합류하십시오",
+    "subtitle": "한국-베트남 비즈니스 매칭 서밋 참가 등록.",
+    "form": {
+      "name": "성함 *",
+      "email": "회사 이메일 *",
+      "company": "소속 기관 / 기업 *",
+      "phone": "휴대전화 연락처 *",
+      "industry": "주요 산업 분야 *",
+      "preferredPartner": "선호하는 한국 AI 파트너",
+      "objective": "상담 목적",
+      "objectives": {
+        "pilot": "파일럿",
+        "procurement": "조달",
+        "distribution": "유통",
+        "rd": "R&D 파트너십",
+        "tech": "기술 상담",
+        "other": "기타"
+      },
+      "interpreter": "한국어-베트남어 통역 지원을 요청합니다.",
+      "transportation": "교통 지원 정보를 받고 싶습니다."
+    },
+    "cta": "서밋 등록 확인",
+    "calendar": "스캔하여 일정을 캘린더에 저장"
+  },
+  "contact": {
+    "title": "도움이 필요하십니까?",
+    "person": "Ms. Giang",
+    "org": "Tech Valley",
+    "emailBtn": "이메일 문의",
+    "callBtn": "전화 지원"
+  },
+  "footer": {
+    "title": "K-AI GLOBAL VALUE CHAIN BUSINESS MATCHING 2026",
+    "orgs": "KOSME × TECH VALLEY",
+    "tagline": "글로벌 밸류 체인을 위한 한국-베트남 기술 연결.",
+    "event": "행사",
+    "business": "비즈니스",
+    "legal": "법적 고지",
+    "copyright": "© 2025 K-AI Global Value Chain Business Matching Summit. Hosted by KOSME & Tech Valley."
+  }
+}
