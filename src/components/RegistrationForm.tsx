@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2 } from 'lucide-react';
+import { collection, addDoc } from 'firebase/firestore';
+import { db } from '../firebase';
 
 export default function RegistrationForm() {
   const { t } = useTranslation();
@@ -27,13 +29,10 @@ export default function RegistrationForm() {
     };
 
     try {
-      const res = await fetch('http://localhost:3001/api/register', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data)
+      await addDoc(collection(db, 'registrations'), {
+        ...data,
+        createdAt: new Date().toISOString()
       });
-      
-      if (!res.ok) throw new Error('Failed to submit');
       setIsSubmitted(true);
     } catch (err: any) {
       console.error(err);

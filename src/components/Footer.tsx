@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, Mail, Linkedin, Twitter, Globe, CheckCircle2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { collection, addDoc } from 'firebase/firestore';
+import { db } from '../firebase';
 
 export default function Footer() {
   const { t, i18n } = useTranslation();
@@ -14,13 +16,10 @@ export default function Footer() {
     
     setStatus('submitting');
     try {
-      const res = await fetch('http://localhost:3001/api/subscribe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email })
+      await addDoc(collection(db, 'subscribers'), {
+        email,
+        createdAt: new Date().toISOString()
       });
-      
-      if (!res.ok) throw new Error('Failed to subscribe');
       setStatus('success');
       setEmail('');
       

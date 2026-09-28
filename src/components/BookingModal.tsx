@@ -3,6 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, CheckCircle2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { companies } from '../data/companies';
+import { collection, addDoc } from 'firebase/firestore';
+import { db } from '../firebase';
 
 interface Props {
   isOpen: boolean;
@@ -32,13 +34,10 @@ export default function BookingModal({ isOpen, onClose, preselectedCompany }: Pr
     };
 
     try {
-      const res = await fetch('http://localhost:3001/api/book', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data)
+      await addDoc(collection(db, 'bookings'), {
+        ...data,
+        createdAt: new Date().toISOString()
       });
-      
-      if (!res.ok) throw new Error('Failed to submit');
       setIsSubmitted(true);
     } catch (err: any) {
       console.error(err);
