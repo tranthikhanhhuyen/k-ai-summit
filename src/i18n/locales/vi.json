@@ -225,5 +225,45 @@
     "business": "KINH DOANH",
     "legal": "PHÁP LÝ",
     "copyright": "© 2025 K-AI Global Value Chain Business Matching Summit. Hosted by KOSME & Tech Valley."
+  },
+  "logistics": {
+    "sectionLabel": "Hậu Cần & Địa Điểm",
+    "title": "SIHUB Saigon Innovation Hub",
+    "subtitle": "Tổ chức tại trung tâm đổi mới công nghệ hàng đầu của TP.HCM. Không gian họp tiêu chuẩn và tiện nghi đầy đủ cho đại biểu.",
+    "badge": {
+      "prefix": "Miễn phí mã Grab & ",
+      "highlight": "voucher ăn uống",
+      "suffix": " cho toàn bộ người tham dự"
+    },
+    "card1": {
+      "badge": "Cơ sở SIHUB • Tầng 2",
+      "title": "Trung tâm Đổi mới",
+      "desc": "273 Điện Biên Phủ, Phường 7, Quận 3, TP.HCM. Tuyến đường trung tâm dễ dàng tiếp cận, có bãi đậu xe riêng."
+    },
+    "card2": {
+      "badge": "Sân khấu Keynote",
+      "title": "Sân khấu & Thuyết trình",
+      "desc": "Hệ thống nghe nhìn hiện đại phục vụ trình diễn sản phẩm, phát biểu chính sách và ký kết hợp tác thương mại."
+    },
+    "card3": {
+      "badge": "Phòng tư vấn 1:1",
+      "title": "Khu vực tư vấn 1:1",
+      "desc": "Phòng tư vấn riêng biệt được trang bị phiên dịch viên, màn hình trình chiếu kỹ thuật số và hỗ trợ tận tình."
+    },
+    "card4": {
+      "badge": "Khám phá Thành phố",
+      "title": "Tour tham quan TP. Hồ Chí Minh",
+      "desc": "Khám phá các địa danh mang tính biểu tượng nhất của Sài Gòn, bao gồm Nhà thờ Đức Bà, Chợ Bến Thành, trong chuyến tham quan thú vị này."
+    },
+    "card5": {
+      "badge": "Ẩm thực địa phương",
+      "title": "Trải nghiệm Ẩm thực Việt Nam",
+      "desc": "Bắt đầu trải nghiệm ẩm thực Việt Nam đích thực với các công thức truyền thống và hương vị địa phương tuyệt hảo."
+    },
+    "card6": {
+      "badge": "Chỗ ở",
+      "title": "Khách sạn & Dịch vụ Đưa đón",
+      "desc": "Tận hưởng kỳ nghỉ thoải mái và dịch vụ đưa đón liền mạch, giúp bạn tiết kiệm thời gian và luôn ở gần địa điểm tổ chức sự kiện."
+    }
   }
 }

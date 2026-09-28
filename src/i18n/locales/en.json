@@ -225,5 +225,45 @@
     "business": "BUSINESS",
     "legal": "LEGAL",
     "copyright": "© 2025 K-AI Global Value Chain Business Matching Summit. Hosted by KOSME & Tech Valley."
+  },
+  "logistics": {
+    "sectionLabel": "On-Site Logistics",
+    "title": "SIHUB Saigon Innovation Hub",
+    "subtitle": "Hosted in Ho Chi Minh City's flagship technology innovation hub. High-density meeting booths and full delegate hospitality.",
+    "badge": {
+      "prefix": "Complimentary Grab codes & ",
+      "highlight": "dining vouchers",
+      "suffix": " for all attendees"
+    },
+    "card1": {
+      "badge": "SIHUB Facility • 2nd Floor",
+      "title": "Central Innovation Hub",
+      "desc": "273 Dien Bien Phu, Ward 7, District 3, Ho Chi Minh City. Accessible central business corridor with reserved delegate parking."
+    },
+    "card2": {
+      "badge": "Keynote & Tech Showcase",
+      "title": "Keynote Stage & Pitching",
+      "desc": "State-of-the-art audiovisual facilities for company demonstrations, bilingual policy remarks, and commercial partnership signings."
+    },
+    "card3": {
+      "badge": "Private 1-on-1 Booths",
+      "title": "1:1 Consultation Stations",
+      "desc": "Private partitioned consultation booths equipped with dedicated translators, digital presentation monitors, and concierge support."
+    },
+    "card4": {
+      "badge": "City Exploration",
+      "title": "Ho Chi Minh City Tour",
+      "desc": "Discover Saigon's most iconic landmarks, including Notre-Dame Cathedral, Ben Thanh Market, in this exciting city exploration."
+    },
+    "card5": {
+      "badge": "Local Cuisine",
+      "title": "Vietnamese Culinary Experience",
+      "desc": "Embark on an authentic Vietnamese culinary experience with traditional recipes and extraordinary local flavors."
+    },
+    "card6": {
+      "badge": "Accommodation",
+      "title": "Hotel & Transfer Benefits",
+      "desc": "Enjoy a comfortable stay and seamless transfers that save you time and keep you close to the main event venues."
+    }
   }
 }
