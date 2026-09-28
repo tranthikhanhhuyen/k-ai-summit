@@ -17,7 +17,7 @@ export default function Hero({ onBook }: { onBook: () => void }) {
           playsInline 
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/assets/brand-film.mp4" type="video/mp4" />
+          <source src="/assets/videoheader.mp4" type="video/mp4" />
         </video>
         {/* Dark overlay to ensure text visibility */}
         <div className="absolute inset-0 bg-deep-navy/60"></div>
