@@ -29,8 +29,8 @@ export default function Logistics() {
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded text-xs font-bold tracking-widest text-deep-navy shadow-sm uppercase">SIHUB Facility • 2nd Floor</div>
             </div>
             <div className="p-8">
-              <h4 className="text-xl font-bold text-deep-navy mb-3">Central Innovation Hub</h4>
-              <p className="text-sm text-gray-500 leading-relaxed">273 Dien Bien Phu, Ward 7, District 3, Ho Chi Minh City. Accessible central business corridor with reserved delegate parking.</p>
+              <h4 className="text-2xl font-serif font-bold text-deep-navy mb-3">Central Innovation Hub</h4>
+              <p className="text-sm font-serif text-gray-600 leading-relaxed">273 Dien Bien Phu, Ward 7, District 3, Ho Chi Minh City. Accessible central business corridor with reserved delegate parking.</p>
             </div>
           </div>
 
@@ -41,8 +41,8 @@ export default function Logistics() {
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded text-xs font-bold tracking-widest text-deep-navy shadow-sm uppercase">Keynote & Tech Showcase</div>
             </div>
             <div className="p-8">
-              <h4 className="text-xl font-bold text-deep-navy mb-3">Keynote Stage & Pitching</h4>
-              <p className="text-sm text-gray-500 leading-relaxed">State-of-the-art audiovisual facilities for company demonstrations, bilingual policy remarks, and commercial partnership signings.</p>
+              <h4 className="text-2xl font-serif font-bold text-deep-navy mb-3">Keynote Stage & Pitching</h4>
+              <p className="text-sm font-serif text-gray-600 leading-relaxed">State-of-the-art audiovisual facilities for company demonstrations, bilingual policy remarks, and commercial partnership signings.</p>
             </div>
           </div>
 
@@ -53,8 +53,8 @@ export default function Logistics() {
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded text-xs font-bold tracking-widest text-deep-navy shadow-sm uppercase">Private 1-on-1 Booths</div>
             </div>
             <div className="p-8">
-              <h4 className="text-xl font-bold text-deep-navy mb-3">1:1 Consultation Stations</h4>
-              <p className="text-sm text-gray-500 leading-relaxed">Private partitioned consultation booths equipped with dedicated translators, digital presentation monitors, and concierge support.</p>
+              <h4 className="text-2xl font-serif font-bold text-deep-navy mb-3">1:1 Consultation Stations</h4>
+              <p className="text-sm font-serif text-gray-600 leading-relaxed">Private partitioned consultation booths equipped with dedicated translators, digital presentation monitors, and concierge support.</p>
             </div>
           </div>
         </div>
@@ -67,8 +67,8 @@ export default function Logistics() {
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded text-xs font-bold tracking-widest text-deep-navy shadow-sm uppercase">City Exploration</div>
             </div>
             <div className="p-8">
-              <h4 className="text-xl font-bold text-deep-navy mb-3">Ho Chi Minh City Tour</h4>
-              <p className="text-sm text-gray-500 leading-relaxed">Discover Saigon's most iconic landmarks, including Notre-Dame Cathedral, Ben Thanh Market, in this exciting city exploration.</p>
+              <h4 className="text-2xl font-serif font-bold text-deep-navy mb-3">Ho Chi Minh City Tour</h4>
+              <p className="text-sm font-serif text-gray-600 leading-relaxed">Discover Saigon's most iconic landmarks, including Notre-Dame Cathedral, Ben Thanh Market, in this exciting city exploration.</p>
             </div>
           </div>
 
@@ -79,8 +79,8 @@ export default function Logistics() {
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded text-xs font-bold tracking-widest text-deep-navy shadow-sm uppercase">Local Cuisine</div>
             </div>
             <div className="p-8">
-              <h4 className="text-xl font-bold text-deep-navy mb-3">Vietnamese Culinary Experience</h4>
-              <p className="text-sm text-gray-500 leading-relaxed">Embark on an authentic Vietnamese culinary experience with traditional recipes and extraordinary local flavors.</p>
+              <h4 className="text-2xl font-serif font-bold text-deep-navy mb-3">Vietnamese Culinary Experience</h4>
+              <p className="text-sm font-serif text-gray-600 leading-relaxed">Embark on an authentic Vietnamese culinary experience with traditional recipes and extraordinary local flavors.</p>
             </div>
           </div>
 
@@ -91,8 +91,8 @@ export default function Logistics() {
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded text-xs font-bold tracking-widest text-deep-navy shadow-sm uppercase">Accommodation</div>
             </div>
             <div className="p-8">
-              <h4 className="text-xl font-bold text-deep-navy mb-3">Hotel & Transfer Benefits</h4>
-              <p className="text-sm text-gray-500 leading-relaxed">Enjoy a comfortable stay and seamless transfers that save you time and keep you close to the main event venues.</p>
+              <h4 className="text-2xl font-serif font-bold text-deep-navy mb-3">Hotel & Transfer Benefits</h4>
+              <p className="text-sm font-serif text-gray-600 leading-relaxed">Enjoy a comfortable stay and seamless transfers that save you time and keep you close to the main event venues.</p>
             </div>
           </div>
         </div>

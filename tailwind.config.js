@@ -17,6 +17,7 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        serif: ['"Playfair Display"', 'Georgia', 'serif'],
       },
       backgroundImage: {
         'mesh': 'radial-gradient(at 40% 20%, hsla(228,100%,94%,1) 0px, transparent 50%), radial-gradient(at 80% 0%, hsla(189,100%,96%,1) 0px, transparent 50%), radial-gradient(at 0% 50%, hsla(228,100%,94%,1) 0px, transparent 50%)',
