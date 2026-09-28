@@ -20,7 +20,7 @@ function CompanyCard({ company, idx, onClick }: { company: any, idx: number, onC
       
       <div className="relative z-10">
         <div className="flex justify-between items-start mb-16">
-          <div className="w-20 h-20 bg-white rounded-xl flex items-center justify-center border border-gray-100 shadow-sm p-3 group-hover:scale-105 group-hover:shadow-md transition-all duration-500">
+          <div className="w-32 h-32 bg-white rounded-xl flex items-center justify-center border border-gray-100 shadow-sm p-4 group-hover:scale-105 group-hover:shadow-md transition-all duration-500">
              <img src={`/assets/logos/${company.id}.png`} alt={`${company.name} logo`} className="w-full h-full object-contain" />
           </div>
           <div className="flex flex-col items-end space-y-2">
