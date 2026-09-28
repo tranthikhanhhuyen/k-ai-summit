@@ -49,9 +49,21 @@ function CompanyCard({ company, idx, onClick }: { company: any, idx: number, onC
       </div>
 
       <div className="relative z-10 mt-8 flex justify-end">
-         <div className="w-10 h-10 rounded-full bg-soft-gray flex items-center justify-center text-gray-400 group-hover:bg-corporate-blue group-hover:text-white transition-colors duration-300 transform group-hover:translate-x-1">
-            <ArrowRight className="w-5 h-5" />
-         </div>
+         {company.website ? (
+           <a 
+             href={company.website} 
+             target="_blank" 
+             rel="noopener noreferrer"
+             onClick={(e) => e.stopPropagation()}
+             className="w-10 h-10 rounded-full bg-soft-gray flex items-center justify-center text-gray-400 group-hover:bg-corporate-blue group-hover:text-white transition-colors duration-300 transform group-hover:translate-x-1"
+           >
+              <ArrowRight className="w-5 h-5" />
+           </a>
+         ) : (
+           <div className="w-10 h-10 rounded-full bg-soft-gray flex items-center justify-center text-gray-400 group-hover:bg-corporate-blue group-hover:text-white transition-colors duration-300 transform group-hover:translate-x-1">
+              <ArrowRight className="w-5 h-5" />
+           </div>
+         )}
       </div>
     </motion.div>
   );

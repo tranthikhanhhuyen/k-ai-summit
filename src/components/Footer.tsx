@@ -47,7 +47,7 @@ export default function Footer() {
             </h2>
             <p className="text-gray-400 font-medium">Join the exclusive network of Korean and Vietnamese tech innovators.</p>
           </div>
-          <div className="w-full lg:w-auto relative min-h-[56px] min-w-[300px]">
+          <div className="w-full lg:w-auto relative min-h-[120px] sm:min-h-[56px] min-w-full sm:min-w-[450px] lg:min-w-[500px]">
             <AnimatePresence mode="wait">
               {status === 'success' ? (
                 <motion.div 
@@ -55,7 +55,7 @@ export default function Footer() {
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
-                  className="flex items-center text-green-400 font-bold px-6 py-4 rounded border border-green-400/30 bg-green-400/10 absolute inset-0 w-full h-full"
+                  className="flex items-center text-green-400 font-bold px-6 py-4 rounded border border-green-400/30 bg-green-400/10 absolute top-0 left-0 w-full"
                 >
                   <CheckCircle2 className="w-5 h-5 mr-3" />
                   Successfully subscribed!
@@ -67,7 +67,7 @@ export default function Footer() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 10 }}
                   onSubmit={handleSubscribe} 
-                  className="flex flex-col sm:flex-row gap-4 absolute inset-0 w-full"
+                  className="flex flex-col sm:flex-row gap-4 absolute top-0 left-0 w-full"
                 >
                   <input 
                     type="email" 
