@@ -205,10 +205,18 @@
         "other": "기타"
       },
       "interpreter": "한국어-베트남어 통역 지원을 요청합니다.",
-      "transportation": "교통 지원 정보를 받고 싶습니다."
+      "transportation": "교통 지원 정보를 받고 싶습니다.",
+      "selectIndustry": "-- 산업 분야 선택 --",
+      "selectPartner": "-- 선택 사항 --",
+      "submitting": "제출 중..."
     },
     "cta": "서밋 등록 확인",
-    "calendar": "스캔하여 일정을 캘린더에 저장"
+    "calendar": "스캔하여 일정을 캘린더에 저장",
+    "success": {
+      "title": "등록이 완료되었습니다!",
+      "text": "K-AI GLOBAL VALUE CHAIN에 등록해 주셔서 감사합니다. 저희 팀에서 지원서를 검토한 후 곧 이메일로 확인 메일을 보내드릴 것입니다.",
+      "button": "추가 등록"
+    }
   },
   "contact": {
     "title": "도움이 필요하십니까?",

@@ -205,10 +205,18 @@
         "other": "Other"
       },
       "interpreter": "I would like Korean–Vietnamese interpretation support.",
-      "transportation": "I would like to receive transportation support information."
+      "transportation": "I would like to receive transportation support information.",
+      "selectIndustry": "-- Select Industry --",
+      "selectPartner": "-- Optional --",
+      "submitting": "SUBMITTING..."
     },
     "cta": "CONFIRM SUMMIT REGISTRATION",
-    "calendar": "SCAN TO SAVE EVENT TO YOUR CALENDAR"
+    "calendar": "SCAN TO SAVE EVENT TO YOUR CALENDAR",
+    "success": {
+      "title": "Registration Received!",
+      "text": "Thank you for registering for the K-AI GLOBAL VALUE CHAIN. Our team will review your application and send a confirmation to your email shortly.",
+      "button": "SUBMIT ANOTHER"
+    }
   },
   "contact": {
     "title": "NEED ASSISTANCE?",

@@ -205,10 +205,18 @@
         "other": "Khác"
       },
       "interpreter": "Tôi yêu cầu hỗ trợ phiên dịch song ngữ Hàn - Việt.",
-      "transportation": "Tôi muốn nhận mã giảm giá Grab di chuyển."
+      "transportation": "Tôi muốn nhận mã giảm giá Grab di chuyển.",
+      "selectIndustry": "-- Chọn Ngành --",
+      "selectPartner": "-- Không bắt buộc --",
+      "submitting": "ĐANG GỬI..."
     },
     "cta": "XÁC NHẬN ĐĂNG KÝ THAM DỰ",
-    "calendar": "QUÉT ĐỂ LƯU SỰ KIỆN VÀO LỊCH"
+    "calendar": "QUÉT ĐỂ LƯU SỰ KIỆN VÀO LỊCH",
+    "success": {
+      "title": "Đã nhận đăng ký!",
+      "text": "Cảm ơn bạn đã đăng ký tham gia K-AI GLOBAL VALUE CHAIN. Nhóm của chúng tôi sẽ xem xét thông tin và gửi xác nhận qua email trong thời gian sớm nhất.",
+      "button": "ĐĂNG KÝ THÊM"
+    }
   },
   "contact": {
     "title": "CẦN HỖ TRỢ?",

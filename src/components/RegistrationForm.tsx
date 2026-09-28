@@ -87,24 +87,24 @@ export default function RegistrationForm() {
                 <div>
                   <label className="block text-xs font-bold text-gray-500 tracking-wider mb-2">{t('registration.form.industry')}</label>
                   <select name="industry" required className="w-full bg-soft-gray border border-gray-200 px-4 py-3 rounded focus:outline-none focus:border-corporate-blue focus:ring-1 focus:ring-corporate-blue transition-colors text-deep-navy appearance-none">
-                    <option value="">-- Select Industry --</option>
-                    <option value="manufacturing">Manufacturing & Industrial</option>
-                    <option value="robotics">Robotics & Logistics</option>
-                    <option value="agritech">Agriculture & AgriTech</option>
-                    <option value="transit">Airport & Public Transit</option>
-                    <option value="retail">Marketing, Retail & E-Commerce</option>
-                    <option value="cybersecurity">Maritime Cybersecurity</option>
-                    <option value="fintech">Finance & FinTech</option>
-                    <option value="energy">Energy & Renewable Energy</option>
-                    <option value="smartbuilding">Smart Infrastructure & Smart Building</option>
-                    <option value="ai">AI & Computer Vision</option>
+                    <option value="">{t('registration.form.selectIndustry')}</option>
+                    <option value="manufacturing">{t('focusAreas.areas.0.title')}</option>
+                    <option value="robotics">{t('focusAreas.areas.1.title')}</option>
+                    <option value="agritech">{t('focusAreas.areas.2.title')}</option>
+                    <option value="transit">{t('focusAreas.areas.3.title')}</option>
+                    <option value="retail">{t('focusAreas.areas.4.title')}</option>
+                    <option value="cybersecurity">{t('focusAreas.areas.5.title')}</option>
+                    <option value="fintech">{t('focusAreas.areas.6.title')}</option>
+                    <option value="energy">{t('focusAreas.areas.7.title')}</option>
+                    <option value="smartbuilding">{t('focusAreas.areas.8.title')}</option>
+                    <option value="ai">{t('focusAreas.areas.9.title')}</option>
                   </select>
                 </div>
 
                 <div>
                   <label className="block text-xs font-bold text-gray-500 tracking-wider mb-2">{t('registration.form.preferredPartner')}</label>
                   <select name="preferredPartner" className="w-full bg-soft-gray border border-gray-200 px-4 py-3 rounded focus:outline-none focus:border-corporate-blue focus:ring-1 focus:ring-corporate-blue transition-colors text-deep-navy appearance-none">
-                    <option value="">-- Optional --</option>
+                    <option value="">{t('registration.form.selectPartner')}</option>
                     <option value="ids">IDS</option>
                     <option value="deep-visions">deep visions</option>
                     <option value="hyperstar">hyperstar</option>
@@ -137,7 +137,7 @@ export default function RegistrationForm() {
 
                 <div className="pt-8">
                   <button type="submit" disabled={isSubmitting} className="w-full bg-deep-navy hover:bg-corporate-blue text-white py-4 rounded font-bold tracking-wide transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-300 disabled:opacity-70 disabled:cursor-not-allowed">
-                    {isSubmitting ? 'SUBMITTING...' : t('registration.cta')}
+                    {isSubmitting ? t('registration.form.submitting') : t('registration.cta')}
                   </button>
                 </div>
               </motion.form>
@@ -151,15 +151,15 @@ export default function RegistrationForm() {
                 <div className="w-20 h-20 bg-green-50 rounded-full flex items-center justify-center mb-6">
                   <CheckCircle2 className="w-10 h-10 text-green-500" />
                 </div>
-                <h3 className="text-3xl font-bold text-deep-navy mb-4">Registration Received!</h3>
+                <h3 className="text-3xl font-bold text-deep-navy mb-4">{t('registration.success.title')}</h3>
                 <p className="text-gray-500 mb-8 max-w-md">
-                  Thank you for registering for the BILATERAL SUMMIT 2026. Our team will review your application and send a confirmation to your email shortly.
+                  {t('registration.success.text')}
                 </p>
                 <button 
                   onClick={() => setIsSubmitted(false)}
                   className="text-corporate-blue font-bold tracking-widest text-sm hover:text-blue-700 transition-colors"
                 >
-                  SUBMIT ANOTHER
+                  {t('registration.success.button')}
                 </button>
               </motion.div>
             )}
