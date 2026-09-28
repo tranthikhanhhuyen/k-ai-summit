@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import EventSnapshot from './components/EventSnapshot';
-import AboutSection from './components/AboutSection';
 import FocusAreas from './components/FocusAreas';
 import CompanyDirectory from './components/CompanyDirectory';
 import Logistics from './components/Logistics';
