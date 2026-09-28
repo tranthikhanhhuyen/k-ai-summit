@@ -32,21 +32,18 @@ function CompanyCard({ company, idx, onClick }: { company: any, idx: number, onC
         
         <div>
           <p className="text-[10px] font-bold tracking-widest text-corporate-blue mb-3 uppercase">{company.industry}</p>
-          <h3 className="text-2xl md:text-3xl font-bold text-deep-navy mb-4 tracking-tight group-hover:text-corporate-blue transition-colors duration-300">{company.name}</h3>
-          <p className="text-gray-500 font-medium leading-relaxed line-clamp-2 md:line-clamp-3 max-w-lg">{company.description}</p>
+          <h3 className="text-2xl md:text-3xl font-bold text-deep-navy tracking-tight group-hover:text-corporate-blue transition-colors duration-300">{company.name}</h3>
           
-          {company.products && (
-            <div className="space-y-2 mt-4 pt-4 border-t border-gray-100">
-               <span className="text-xs font-bold text-deep-navy tracking-widest uppercase">Key Products</span>
-               <ul className="space-y-2">
-                 {company.products.map((prod: string, i: number) => (
-                    <li key={i} className="text-sm font-medium text-gray-500 flex items-start">
-                       <span className="text-corporate-blue mr-2 mt-0.5">•</span>
-                       {prod}
-                    </li>
-                 ))}
-               </ul>
-            </div>
+          {company.website && (
+            <a 
+              href={company.website} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="inline-block mt-4 text-sm font-bold text-corporate-blue hover:text-blue-700 hover:underline transition-all"
+            >
+              {company.website.replace('https://', '')}
+            </a>
           )}
         </div>
       </div>

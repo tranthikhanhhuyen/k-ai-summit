@@ -136,10 +136,10 @@ export default function Footer() {
             <h4 className="text-xs font-bold tracking-widest text-white mb-6 uppercase">Organized By</h4>
             <div className="flex flex-col space-y-4">
               <div className="bg-white p-2 rounded w-32 flex items-center justify-center">
-                <img src="/assets/kosme.png" alt="KOSME" className="w-full h-auto object-contain" />
+                <img src="/assets/kosmereal.jpg" alt="KOSME" className="w-full h-auto object-contain mix-blend-multiply" />
               </div>
               <div className="bg-white p-2 rounded w-32 flex items-center justify-center">
-                <img src="/assets/techvalley.png" alt="Tech Valley" className="w-full h-auto object-contain" />
+                <img src="/assets/techvalleyreal.jpg" alt="Tech Valley" className="w-full h-auto object-contain mix-blend-multiply" />
               </div>
             </div>
             

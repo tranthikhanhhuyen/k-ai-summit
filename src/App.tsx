@@ -25,7 +25,6 @@ function App() {
       <main className="flex-grow">
         <Hero onBook={() => setIsBookingOpen(true)} />
         <EventSnapshot />
-        <AboutSection />
         <FocusAreas />
         <CompanyDirectory onBook={() => setIsBookingOpen(true)} />
         <Logistics />

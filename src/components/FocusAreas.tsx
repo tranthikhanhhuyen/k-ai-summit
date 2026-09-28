@@ -35,9 +35,6 @@ export default function FocusAreas() {
                 <h3 className="text-deep-navy font-bold text-lg md:text-xl mb-3 group-hover:text-corporate-blue transition-colors duration-300">
                   {area.title}
                 </h3>
-                <p className="text-gray-500 font-medium text-sm leading-relaxed">
-                  {area.description}
-                </p>
               </div>
             </div>
           ))}
