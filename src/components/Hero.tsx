@@ -83,14 +83,14 @@ export default function Hero({ onBook }: { onBook: () => void }) {
       </div>
       
       {/* Information Strip */}
-      <div className="absolute bottom-0 left-0 w-full border-t border-white/10 bg-deep-navy/80 backdrop-blur-md">
+      <div className="absolute bottom-0 left-0 w-full border-t border-gray-100 bg-white/95 backdrop-blur-md">
         <div className="container mx-auto px-6 py-4 flex flex-col sm:flex-row justify-between items-center text-sm font-medium">
           <div className="flex items-center space-x-8 mb-4 sm:mb-0">
-            <div className="flex items-center text-gray-300">
+            <div className="flex items-center text-deep-navy font-bold">
               <Calendar className="w-4 h-4 mr-2 text-corporate-blue" />
               {t('hero.date')}
             </div>
-            <div className="flex items-center text-gray-300">
+            <div className="flex items-center text-deep-navy font-bold">
               <MapPin className="w-4 h-4 mr-2 text-corporate-blue" />
               {t('hero.venue')}
             </div>

@@ -13,9 +13,9 @@ export default function EventSnapshot() {
   ];
 
   return (
-    <section className="bg-deep-navy text-white py-20 border-t border-white/10">
+    <section className="bg-white text-deep-navy py-20 border-t border-gray-100">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-6 divide-y md:divide-y-0 lg:divide-x divide-white/10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-6 divide-y md:divide-y-0 lg:divide-x divide-gray-200">
           {stats.map((stat, idx) => (
             <motion.div 
               key={idx}
@@ -27,7 +27,7 @@ export default function EventSnapshot() {
             >
               <span className="text-corporate-blue text-sm font-bold tracking-widest block mb-4">{stat.num}</span>
               <h3 className="text-4xl md:text-5xl font-light tracking-tight mb-2">{stat.title}</h3>
-              {stat.sub && <p className="text-gray-400 font-medium tracking-wide text-sm uppercase mt-4">{stat.sub}</p>}
+              {stat.sub && <p className="text-gray-500 font-medium tracking-wide text-sm uppercase mt-4">{stat.sub}</p>}
             </motion.div>
           ))}
         </div>
