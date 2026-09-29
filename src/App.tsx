@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import EventSnapshot from './components/EventSnapshot';
-import FocusAreas from './components/FocusAreas';
 import CompanyDirectory from './components/CompanyDirectory';
 import Logistics from './components/Logistics';
 import Agenda from './components/Agenda';
@@ -24,8 +23,7 @@ function App() {
       <main className="flex-grow">
         <Hero onBook={() => setIsBookingOpen(true)} />
         <EventSnapshot />
-        <FocusAreas />
-        <CompanyDirectory onBook={() => setIsBookingOpen(true)} />
+        <CompanyDirectory />
         <Logistics />
         <Agenda />
         <MatchingSection onBook={() => setIsBookingOpen(true)} />

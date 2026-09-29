@@ -115,7 +115,6 @@ export default function Footer() {
             <ul className="space-y-4 text-sm font-medium text-gray-400">
               <li><a href="#overview" className="hover:text-corporate-blue transition-colors">{t('header.nav.overview')}</a></li>
               <li><a href="#agenda" className="hover:text-corporate-blue transition-colors">{t('header.nav.agenda')}</a></li>
-              <li><a href="#focus" className="hover:text-corporate-blue transition-colors">{t('header.nav.focusAreas')}</a></li>
               <li><a href="#companies" className="hover:text-corporate-blue transition-colors">{t('header.nav.aiCompanies')}</a></li>
               <li><a href="#venue" className="hover:text-corporate-blue transition-colors">{t('header.nav.venue')}</a></li>
             </ul>

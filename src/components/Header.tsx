@@ -19,7 +19,6 @@ export default function Header() {
   const navLinks = [
     { name: t('header.nav.overview'), href: '#overview' },
     { name: t('header.nav.agenda'), href: '#agenda' },
-    { name: t('header.nav.focusAreas'), href: '#focus' },
     { name: t('header.nav.aiCompanies'), href: '#companies' },
     { name: t('header.nav.venue'), href: '#venue' }
   ];

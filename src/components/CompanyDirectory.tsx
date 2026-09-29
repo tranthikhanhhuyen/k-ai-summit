@@ -1,108 +1,72 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
 import { companies } from '../data/companies';
-import CompanyProfileModal from './CompanyProfileModal';
 
-function CompanyCard({ company, idx, onClick }: { company: any, idx: number, onClick: () => void }) {
+function CompanyCard({ company, idx }: { company: any, idx: number }) {
+  const industryText = company.industry.trim().toUpperCase().endsWith('AI') ? company.industry.trim() : `${company.industry.trim()} AI`;
+
   return (
-    <motion.div
+    <motion.a
+      href={company.website}
+      target="_blank"
+      rel="noopener noreferrer"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ delay: (idx % 2) * 0.1, duration: 0.7, ease: [0.21, 0.47, 0.32, 0.98] }}
-      onClick={onClick}
-      className={`group cursor-pointer relative bg-white rounded-2xl border border-gray-100 p-8 md:p-10 transition-all duration-500 hover:shadow-[0_20px_40px_-15px_rgba(11,92,255,0.15)] hover:border-corporate-blue/20 overflow-hidden flex flex-col justify-between`}
+      transition={{ delay: (idx % 5) * 0.1, duration: 0.5 }}
+      className="group flex flex-col items-center justify-center gap-3 bg-white rounded-xl border border-gray-100 p-5 hover:shadow-xl hover:border-corporate-blue/30 transition-all duration-300 relative"
     >
-      {/* Subtle hover background shift */}
-      <div className="absolute inset-0 bg-gradient-to-br from-very-light-blue/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
-      
-      <div className="relative z-10">
-        <div className="flex justify-between items-start mb-16">
-          <div className="w-44 h-44 bg-white rounded-xl flex items-center justify-center border border-gray-100 shadow-sm p-2 group-hover:scale-105 group-hover:shadow-md transition-all duration-500">
-             <img src={`/assets/logos/${company.id}.png`} alt={`${company.name} logo`} className="w-full h-full object-contain" />
-          </div>
-          <div className="flex flex-col items-end space-y-2">
-            <span className="px-3 py-1 bg-soft-gray border border-gray-200 text-gray-500 text-[10px] font-bold tracking-widest uppercase rounded-full">
-              BOOTH {company.booth}
-            </span>
-          </div>
-        </div>
-        
-        <div>
-          <p className="text-[10px] font-bold tracking-widest text-corporate-blue mb-3 uppercase">{company.industry}</p>
-          <h3 className="text-2xl md:text-3xl font-bold text-deep-navy tracking-tight group-hover:text-corporate-blue transition-colors duration-300">{company.name}</h3>
-          
-          {company.website && (
-            <a 
-              href={company.website} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
-              className="inline-block mt-4 text-sm font-bold text-corporate-blue hover:text-blue-700 hover:underline transition-all"
-            >
-              {company.website.replace('https://', '')}
-            </a>
-          )}
-        </div>
+      {/* Industry Text */}
+      <div className="w-full text-center">
+        <span className="text-[10px] md:text-xs font-bold tracking-widest text-corporate-blue uppercase">
+          {industryText}
+        </span>
       </div>
 
-      <div className="relative z-10 mt-8 flex justify-end">
-         {company.website ? (
-           <a 
-             href={company.website} 
-             target="_blank" 
-             rel="noopener noreferrer"
-             onClick={(e) => e.stopPropagation()}
-             className="w-10 h-10 rounded-full bg-soft-gray flex items-center justify-center text-gray-400 group-hover:bg-corporate-blue group-hover:text-white transition-colors duration-300 transform group-hover:translate-x-1"
-           >
-              <ArrowRight className="w-5 h-5" />
-           </a>
-         ) : (
-           <div className="w-10 h-10 rounded-full bg-soft-gray flex items-center justify-center text-gray-400 group-hover:bg-corporate-blue group-hover:text-white transition-colors duration-300 transform group-hover:translate-x-1">
-              <ArrowRight className="w-5 h-5" />
-           </div>
-         )}
+      {/* Logo */}
+      <div className="w-full h-16 md:h-20 flex items-center justify-center">
+        <img 
+          src={`/assets/logos/${company.id}.png`} 
+          alt={`${company.name} logo`} 
+          className="max-w-[85%] max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
+        />
       </div>
-    </motion.div>
+
+      {/* Website Link */}
+      <div className="w-full text-center">
+        <span className="text-gray-400 group-hover:text-corporate-blue text-xs md:text-sm font-medium transition-colors duration-300">
+          {company.website.replace('https://', '').replace('http://', '').replace(/\/$/, '')}
+        </span>
+      </div>
+    </motion.a>
   );
 }
 
-export default function CompanyDirectory({ onBook }: { onBook: (companyId: string) => void }) {
+export default function CompanyDirectory() {
   const { t } = useTranslation();
-  const [selectedCompany, setSelectedCompany] = useState<typeof companies[0] | null>(null);
 
   return (
-    <section id="companies" className="py-32 relative bg-soft-gray overflow-hidden">
+    <section id="companies" className="py-24 md:py-32 relative bg-soft-gray overflow-hidden">
       <div className="absolute inset-0 bg-mesh opacity-80"></div>
-      <div className="absolute inset-0 bg-grid-pattern bg-[size:40px_40px] opacity-30"></div>
       
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-8 relative z-10">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-6xl font-bold text-deep-navy tracking-tight mb-20 text-center"
+          className="text-3xl md:text-5xl font-bold text-deep-navy tracking-tight mb-16 text-center uppercase"
         >
           {t('companies.title')}
         </motion.h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8" style={{ perspective: "1000px" }}>
+        {/* Grid Layout: 2 cols on mobile, 3 on tablet, 5 on desktop */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 lg:gap-8">
           {companies.map((company, idx) => (
-            <CompanyCard key={company.id} company={company} idx={idx} onClick={() => setSelectedCompany(company)} />
+            <CompanyCard key={company.id} company={company} idx={idx} />
           ))}
         </div>
       </div>
-      
-      <CompanyProfileModal 
-        company={selectedCompany} 
-        onClose={() => setSelectedCompany(null)} 
-        onBook={() => {
-          setSelectedCompany(null);
-          if(selectedCompany) onBook(selectedCompany.id);
-        }}
-      />
     </section>
   );
 }
