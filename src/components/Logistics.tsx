@@ -52,7 +52,7 @@ export default function Logistics() {
           {/* Card 3 */}
           <div className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-shadow duration-300 group">
             <div className="relative h-64 overflow-hidden">
-              <img src="/assets/venue3.jpg" alt={t('logistics.card3.title')} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="/assets/networklunch.jpg" alt={t('logistics.card3.title')} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded text-xs font-bold tracking-widest text-deep-navy shadow-sm uppercase">{t('logistics.card3.badge')}</div>
             </div>
             <div className="p-8">
@@ -66,7 +66,7 @@ export default function Logistics() {
           {/* Card 4 - View */}
           <div className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-shadow duration-300 group">
             <div className="relative h-64 overflow-hidden">
-              <img src="/assets/view.jpg" alt={t('logistics.card4.title')} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="/assets/dinner.jpg" alt={t('logistics.card4.title')} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded text-xs font-bold tracking-widest text-deep-navy shadow-sm uppercase">{t('logistics.card4.badge')}</div>
             </div>
             <div className="p-8">
@@ -78,7 +78,7 @@ export default function Logistics() {
           {/* Card 5 - Food */}
           <div className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-shadow duration-300 group">
             <div className="relative h-64 overflow-hidden">
-              <img src="/assets/food.jpg" alt={t('logistics.card5.title')} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="/assets/patrick_kim.jpg" alt={t('logistics.card5.title')} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded text-xs font-bold tracking-widest text-deep-navy shadow-sm uppercase">{t('logistics.card5.badge')}</div>
             </div>
             <div className="p-8">
@@ -90,7 +90,7 @@ export default function Logistics() {
           {/* Card 6 - Room */}
           <div className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-shadow duration-300 group">
             <div className="relative h-64 overflow-hidden">
-              <img src="/assets/room.jpg" alt={t('logistics.card6.title')} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="/assets/slide.jpg" alt={t('logistics.card6.title')} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded text-xs font-bold tracking-widest text-deep-navy shadow-sm uppercase">{t('logistics.card6.badge')}</div>
             </div>
             <div className="p-8">

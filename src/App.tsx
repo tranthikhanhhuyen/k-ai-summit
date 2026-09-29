@@ -23,9 +23,9 @@ function App() {
       <main className="flex-grow">
         <Hero onBook={() => setIsBookingOpen(true)} />
         <EventSnapshot />
+        <Agenda />
         <CompanyDirectory />
         <Logistics />
-        <Agenda />
         <MatchingSection onBook={() => setIsBookingOpen(true)} />
         <VIPPerks />
         <Venue />

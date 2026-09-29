@@ -244,34 +244,34 @@
       "suffix": " 제공"
     },
     "card1": {
-      "badge": "SIHUB 시설 • 2층",
-      "title": "중앙 이노베이션 허브",
-      "desc": "호치민 시 3군 7동 디엔비엔푸 273. 접근성이 뛰어난 비즈니스 중심지이며 전용 주차장이 있습니다."
+      "badge": "SIHUB",
+      "title": "SIHUB",
+      "desc": "273 Dien Bien Phu, Ward 7, District 3, Ho Chi Minh City. Accessible central business corridor with reserved delegate parking."
     },
     "card2": {
-      "badge": "기조 연설 및 기술 쇼케이스",
-      "title": "기조 연설 및 피칭 무대",
-      "desc": "제품 시연, 정책 발표 및 상업 파트너십 서명을 위한 최첨단 시청각 시설."
+      "badge": "1:1 Meeting",
+      "title": "Business matching (1:1)",
+      "desc": "Private partitioned consultation booths equipped with dedicated translators, digital presentation monitors, and concierge support."
     },
     "card3": {
-      "badge": "비공개 1:1 부스",
-      "title": "1:1 상담 스테이션",
-      "desc": "전담 통역사, 디지털 프레젠테이션 모니터 및 컨시어지 지원을 갖춘 독립된 상담 부스."
+      "badge": "Networking",
+      "title": "Network Lunch (12pm)-23 Oct",
+      "desc": "An intimate lunch to network, share ideas, and forge new collaboration opportunities."
     },
     "card4": {
-      "badge": "도시 탐험",
-      "title": "호치민 시티 투어",
-      "desc": "이 흥미진진한 도시 탐험에서 노트르담 대성당, 벤탄 시장을 포함한 사이공의 가장 상징적인 랜드마크를 발견하십시오."
+      "badge": "Networking",
+      "title": "Startup meet-up at dinner (6pm) on 23 Oct",
+      "desc": "A dinner meet-up for startups to network, share visions, and build strategic partnerships."
     },
     "card5": {
-      "badge": "현지 요리",
-      "title": "베트남 요리 경험",
-      "desc": "전통적인 요리법과 특별한 현지 풍미를 통해 정통 베트남 요리를 경험해 보십시오."
+      "badge": "Seminar",
+      "title": "Seminar by TechValley (Patrick kim)",
+      "desc": "TechValley Seminar with Patrick Kim: Navigating the future of AI and business strategy."
     },
     "card6": {
-      "badge": "숙박 시설",
-      "title": "호텔 및 이동 혜택",
-      "desc": "편안한 숙박과 원활한 이동 서비스를 통해 시간을 절약하고 주요 행사 장소와 가까운 곳에 머무르십시오."
+      "badge": "Research",
+      "title": "Market research by TechValley",
+      "desc": "In-depth Go-To-Market strategies and consulting insights for Smart City, Cloud computing, and AI sectors in Vietnam."
     }
   }
 }

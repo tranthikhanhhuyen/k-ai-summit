@@ -244,34 +244,34 @@
       "suffix": " for all attendees"
     },
     "card1": {
-      "badge": "SIHUB Facility • 2nd Floor",
-      "title": "Central Innovation Hub",
+      "badge": "SIHUB",
+      "title": "SIHUB",
       "desc": "273 Dien Bien Phu, Ward 7, District 3, Ho Chi Minh City. Accessible central business corridor with reserved delegate parking."
     },
     "card2": {
-      "badge": "Keynote & Tech Showcase",
-      "title": "Keynote Stage & Pitching",
-      "desc": "State-of-the-art audiovisual facilities for company demonstrations, bilingual policy remarks, and commercial partnership signings."
-    },
-    "card3": {
-      "badge": "Private 1-on-1 Booths",
-      "title": "1:1 Consultation Stations",
+      "badge": "1:1 Meeting",
+      "title": "Business matching (1:1)",
       "desc": "Private partitioned consultation booths equipped with dedicated translators, digital presentation monitors, and concierge support."
     },
+    "card3": {
+      "badge": "Networking",
+      "title": "Network Lunch (12pm)-23 Oct",
+      "desc": "An intimate lunch to network, share ideas, and forge new collaboration opportunities."
+    },
     "card4": {
-      "badge": "City Exploration",
-      "title": "Ho Chi Minh City Tour",
-      "desc": "Discover Saigon's most iconic landmarks, including Notre-Dame Cathedral, Ben Thanh Market, in this exciting city exploration."
+      "badge": "Networking",
+      "title": "Startup meet-up at dinner (6pm) on 23 Oct",
+      "desc": "A dinner meet-up for startups to network, share visions, and build strategic partnerships."
     },
     "card5": {
-      "badge": "Local Cuisine",
-      "title": "Vietnamese Culinary Experience",
-      "desc": "Embark on an authentic Vietnamese culinary experience with traditional recipes and extraordinary local flavors."
+      "badge": "Seminar",
+      "title": "Seminar by TechValley (Patrick kim)",
+      "desc": "TechValley Seminar with Patrick Kim: Navigating the future of AI and business strategy."
     },
     "card6": {
-      "badge": "Accommodation",
-      "title": "Hotel & Transfer Benefits",
-      "desc": "Enjoy a comfortable stay and seamless transfers that save you time and keep you close to the main event venues."
+      "badge": "Research",
+      "title": "Market research by TechValley",
+      "desc": "In-depth Go-To-Market strategies and consulting insights for Smart City, Cloud computing, and AI sectors in Vietnam."
     }
   }
 }
