@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, Mail, Linkedin, Twitter, Globe, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Mail, Linkedin, Facebook, Globe, CheckCircle2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../firebase';
@@ -104,9 +104,12 @@ export default function Footer() {
               Connecting Korea's leading AI, Robotics, and Automation innovators with Vietnam's rapidly growing digital economy.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-corporate-blue transition-colors text-gray-400 hover:text-white"><Linkedin className="w-4 h-4" /></a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-corporate-blue transition-colors text-gray-400 hover:text-white"><Twitter className="w-4 h-4" /></a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-corporate-blue transition-colors text-gray-400 hover:text-white"><Globe className="w-4 h-4" /></a>
+              <a href="https://www.linkedin.com/company/tcv2024/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-corporate-blue transition-colors text-gray-400 hover:text-white"><Linkedin className="w-4 h-4" /></a>
+              <a href="https://www.facebook.com/TechValleyVN/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-corporate-blue transition-colors text-gray-400 hover:text-white"><Facebook className="w-4 h-4" /></a>
+              <a href="https://techvalley.biz" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-corporate-blue transition-colors text-gray-400 hover:text-white"><Globe className="w-4 h-4" /></a>
+            </div>
+            <div className="mt-6">
+              <a href="mailto:anh.comtor@techvalleyvn.net" className="text-gray-400 hover:text-corporate-blue transition-colors text-sm font-medium">anh.comtor@techvalleyvn.net</a>
             </div>
           </div>
           
