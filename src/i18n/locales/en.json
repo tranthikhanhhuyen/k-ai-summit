@@ -16,7 +16,7 @@
   "hero": {
     "initiative": "KOREA-VIETNAM HIGH-TECH EXPANSION INITIATIVE",
     "organizedBy": "Organized by KOSME • Tech Valley",
-    "title1": "BILATERAL SUMMIT 2026",
+    "title1": "BUSINESS MATCHING EVENT 2026",
     "title2": "K-AI GLOBAL",
     "title3": "VALUE CHAIN",
     "subtitle": "BUSINESS MATCHING",
@@ -187,7 +187,7 @@
   },
   "registration": {
     "headline": "JOIN THE K-AI GLOBAL VALUE CHAIN",
-    "subtitle": "Register to participate in the Korea–Vietnam Business Matching Summit.",
+    "subtitle": "Register to participate in the Korea–Vietnam Business Matching Event.",
     "form": {
       "name": "FULL NAME *",
       "email": "CORPORATE EMAIL *",
@@ -210,7 +210,7 @@
       "selectPartner": "-- Optional --",
       "submitting": "SUBMITTING..."
     },
-    "cta": "CONFIRM SUMMIT REGISTRATION",
+    "cta": "CONFIRM EVENT REGISTRATION",
     "calendar": "SCAN TO SAVE EVENT TO YOUR CALENDAR",
     "success": {
       "title": "Registration Received!",
@@ -232,7 +232,7 @@
     "event": "EVENT",
     "business": "BUSINESS",
     "legal": "LEGAL",
-    "copyright": "© 2025 K-AI Global Value Chain Business Matching Summit. Hosted by KOSME & Tech Valley."
+    "copyright": "© 2025 K-AI Global Value Chain Business Matching Event. Hosted by KOSME & Tech Valley."
   },
   "logistics": {
     "sectionLabel": "On-Site Logistics",

@@ -16,7 +16,7 @@
   "hero": {
     "initiative": "한국-베트남 첨단 기술 확장 이니셔티브",
     "organizedBy": "주최: KOSME • Tech Valley",
-    "title1": "양자 정상회의 2026",
+    "title1": "비즈니스 매칭 이벤트 2026",
     "title2": "K-AI GLOBAL",
     "title3": "VALUE CHAIN",
     "subtitle": "비즈니스 매칭",
@@ -187,7 +187,7 @@
   },
   "registration": {
     "headline": "K-AI 글로벌 밸류 체인에 합류하십시오",
-    "subtitle": "한국-베트남 비즈니스 매칭 서밋 참가 등록.",
+    "subtitle": "한국-베트남 비즈니스 매칭 이벤트 참가 등록.",
     "form": {
       "name": "성함 *",
       "email": "회사 이메일 *",
@@ -210,7 +210,7 @@
       "selectPartner": "-- 선택 사항 --",
       "submitting": "제출 중..."
     },
-    "cta": "서밋 등록 확인",
+    "cta": "이벤트 등록 확인",
     "calendar": "스캔하여 일정을 캘린더에 저장",
     "success": {
       "title": "등록이 완료되었습니다!",
