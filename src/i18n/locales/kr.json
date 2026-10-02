@@ -1,9 +1,9 @@
 {
   "header": {
-    "organization": "KOSME × TECH VALLEY",
+    "organization": "KOSME × Tech Valley",
     "dateLocation": "2026년 10월 23일 · SIHUB 호치민",
-    "perks": "참가자 대상 무료 차량 및 다이닝 바우처 제공",
-    "title": "K-AI 글로벌 밸류 체인 - 비즈니스 매칭",
+    "perks": "참가자 대상 무료 차량 호출 서비스 및 다이닝 바우처 제공",
+    "title": "한국 인공지능 글로벌 밸류 체인 - 비즈니스 매칭",
     "nav": {
       "overview": "개요",
       "agenda": "일정",
@@ -17,12 +17,12 @@
     "initiative": "한국-베트남 첨단 기술 확장 이니셔티브",
     "organizedBy": "주최: KOSME • Tech Valley",
     "title1": "비즈니스 매칭 이벤트 2026",
-    "title2": "K-AI GLOBAL",
-    "title3": "VALUE CHAIN",
+    "title2": "한국 인공지능 글로벌",
+    "title3": "밸류 체인",
     "subtitle": "비즈니스 매칭",
-    "description": "한국의 선도적인 AI, 로보틱스 및 산업 자동화 혁신 기업들과 베트남의 기업, 인프라 운영자 및 기술 리더들을 연결합니다.",
+    "description": "한국의 선도적인 인공지능, 로보틱스 및 산업 자동화 혁신 기업들과 베트남의 기업, 인프라 운영자 및 기술 리더들을 연결합니다.",
     "registerBtn": "1:1 상담 등록하기",
-    "downloadPdf": "행사 일정표 PDF 다운로드",
+    "downloadPdf": "행사 일정표 전자문서 다운로드",
     "date": "2026년 10월 23일",
     "venue": "SIHUB · 호치민 시",
     "duration": "종일 행사",
@@ -34,15 +34,15 @@
   "snapshot": {
     "date": "2026년 10월 23일",
     "venue": "SIHUB 호치민",
-    "companies": "한국 AI 기업",
+    "companies": "한국 인공지능 기업",
     "matching": "비즈니스 매칭"
   },
   "about": {
     "headline": "연결을 구축하고 기회를 창출하며 글로벌 밸류 체인에 진입하십시오.",
-    "description": "한국의 AI 혁신 기업과 베트남 기업 및 기관을 연결하여 기술 도입, 전략적 파트너십, 파일럿 프로젝트 및 장기적인 시장 확장을 위한 집중적인 비즈니스 매칭 플랫폼입니다.",
+    "description": "한국의 인공지능 혁신 기업과 베트남 기업 및 기관을 연결하여 기술 도입, 전략적 파트너십, 파일럿 프로젝트 및 장기적인 시장 확장을 위한 집중적인 비즈니스 매칭 플랫폼입니다.",
     "discover": {
       "title": "발견",
-      "text": "새롭게 떠오르는 한국의 AI 및 산업 기술을 탐색하십시오."
+      "text": "새롭게 떠오르는 한국의 인공지능 및 산업 기술을 탐색하십시오."
     },
     "connect": {
       "title": "연결",
@@ -59,17 +59,17 @@
       {
         "id": 1,
         "title": "제조 및 산업",
-        "description": "자동 광학 검사, 제품 결함 알고리즘, 예측 유지 보수, 디지털 트윈 및 산업용 IoT 데이터 인프라."
+        "description": "자동 광학 검사, 제품 결함 알고리즘, 예측 유지 보수, 디지털 트윈 및 산업용 사물인터넷 데이터 인프라."
       },
       {
         "id": 2,
         "title": "로보틱스 및 물류",
-        "description": "자율 이동 로봇(AMR), 자동 분류 센터, 차량 경로 최적화 및 창고 로보틱스 OS."
+        "description": "자율 이동 로봇(자율 이동 로봇), 자동 분류 센터, 차량 경로 최적화 및 창고 로보틱스 운영 체제."
       },
       {
         "id": 3,
         "title": "농업 및 에그리테크",
-        "description": "정밀 농업 센서, AI 온실 기후 제어, 항공 작물 건강 분석 및 자동 수확 시스템."
+        "description": "정밀 농업 센서, 인공지능 온실 기후 제어, 항공 작물 건강 분석 및 자동 수확 시스템."
       },
       {
         "id": 4,
@@ -79,12 +79,12 @@
       {
         "id": 5,
         "title": "마케팅, 소매 및 전자 상거래",
-        "description": "AI 맞춤형 추천 엔진, 자동 라이브 커머스 비디오 편집, 옴니 채널 소비자 행동 모델링 및 동적 가격 책정."
+        "description": "인공지능 맞춤형 추천 엔진, 자동 실시간 상거래 영상 편집, 옴니 채널 소비자 행동 모델링 및 동적 가격 책정."
       },
       {
         "id": 6,
         "title": "해양 사이버 보안",
-        "description": "자율 운항 선박을 위한 사이버 방어, 항구 데이터 전송 보호, AIS 스푸핑 방지 및 해양 위성 보안."
+        "description": "자율 운항 선박을 위한 사이버 방어, 항구 데이터 전송 보호, 자동식별장치 스푸핑 방지 및 해양 위성 보안."
       },
       {
         "id": 7,
@@ -99,18 +99,19 @@
       {
         "id": 9,
         "title": "스마트 인프라 및 스마트 빌딩",
-        "description": "스마트 빌딩 HVAC 최적화, 구조 변형 모니터링, 스마트 주차 네트워크 및 탄소 제로 시설 운영."
+        "description": "스마트 빌딩 냉난방공조 최적화, 구조 변형 모니터링, 스마트 주차 네트워크 및 탄소 제로 시설 운영."
       },
       {
         "id": 10,
-        "title": "AI, 컴퓨터 비전 및 디지털 전환",
-        "description": "엔터프라이즈 파운데이션 모델, 독점 LLM 증류, 엣지 컴퓨터 비전 스테이션 및 레거시 IT 시스템 자동화."
+        "title": "인공지능, 컴퓨터 비전 및 디지털 전환",
+        "description": "엔터프라이즈 파운데이션 모델, 독점 대규모 언어 모델 증류, 엣지 컴퓨터 비전 스테이션 및 레거시 정보기술 시스템 자동화."
       }
     ]
   },
   "companies": {
-    "title": "10 BUSINESS MATCHING AREA",
-    "bookMeeting": "1:1 미팅 예약"
+    "title": "비즈니스 매칭 분야",
+    "bookMeeting": "1:1 미팅 예약",
+    "booth": "부스"
   },
   "agenda": {
     "title": "행사 일정 요약",
@@ -133,7 +134,7 @@
       {
         "time": "18:00 – 20:00",
         "title": "임원 만찬",
-        "description": "VIP 네트워킹 및 투자자 밋업."
+        "description": "주요 인사 네트워킹 및 투자자 모임."
       }
     ],
     "interpreter": "한국어-베트남어 이중 언어 통역사가 제공됩니다."
@@ -161,14 +162,21 @@
       "pilot": "파일럿 논의",
       "procurement": "조달",
       "distribution": "유통",
-      "rd": "R&D 파트너십"
+      "rd": "연구 개발 파트너십"
     },
-    "cta": "1:1 요청 확인"
+    "cta": "1:1 요청 확인",
+    "requestSent": "요청이 전송되었습니다",
+    "select": "-- 선택 --",
+    "additionalOptions": "추가 옵션",
+    "submitting": "제출 중...",
+    "successTitle": "미팅 요청 완료!",
+    "successText": "1:1 미팅 요청이 기록되었습니다. 저희 팀에서 일정을 확인한 후 곧 확인 메일을 보내드릴 것입니다.",
+    "close": "닫기"
   },
   "perks": {
     "headline": "귀하의 방문을 전폭적으로 지원합니다.",
     "grab": {
-      "title": "그랩 바우처",
+      "title": "차량 호출 바우처",
       "text": "등록된 대표단을 위한 무료 교통 지원."
     },
     "lunch": {
@@ -177,16 +185,16 @@
     },
     "dinner": {
       "title": "임원 만찬",
-      "text": "임원, 정부 대표 및 투자자들과의 독점적인 저녁 네트워킹."
+      "text": "임원 및 투자자들과의 독점적인 저녁 네트워킹."
     }
   },
   "venue": {
-    "title": "SIHUB 사이공 이노베이션 허브",
+    "title": "SIHUB SIHUB",
     "address": "2층\n273 Dien Bien Phu\n3군\n호치민 시\n베트남",
     "getDirections": "길 찾기"
   },
   "registration": {
-    "headline": "K-AI 글로벌 밸류 체인에 합류하십시오",
+    "headline": "한국 인공지능 글로벌 밸류 체인에 합류하십시오",
     "subtitle": "한국-베트남 비즈니스 매칭 이벤트 참가 등록.",
     "form": {
       "name": "성함 *",
@@ -194,13 +202,13 @@
       "company": "소속 기관 / 기업 *",
       "phone": "휴대전화 연락처 *",
       "industry": "주요 산업 분야 *",
-      "preferredPartner": "선호하는 한국 AI 파트너",
+      "preferredPartner": "선호하는 한국 인공지능 파트너",
       "objective": "상담 목적",
       "objectives": {
         "pilot": "파일럿",
         "procurement": "조달",
         "distribution": "유통",
-        "rd": "R&D 파트너십",
+        "rd": "연구 개발 파트너십",
         "tech": "기술 상담",
         "other": "기타"
       },
@@ -214,9 +222,10 @@
     "calendar": "스캔하여 일정을 캘린더에 저장",
     "success": {
       "title": "등록이 완료되었습니다!",
-      "text": "K-AI GLOBAL VALUE CHAIN에 등록해 주셔서 감사합니다. 저희 팀에서 지원서를 검토한 후 곧 이메일로 확인 메일을 보내드릴 것입니다.",
+      "text": "한국 인공지능 글로벌 밸류 체인에 등록해 주셔서 감사합니다. 저희 팀에서 지원서를 검토한 후 곧 이메일로 확인 메일을 보내드릴 것입니다.",
       "button": "추가 등록"
-    }
+    },
+    "qrCode": "행사 QR 코드"
   },
   "contact": {
     "title": "도움이 필요하십니까?",
@@ -226,52 +235,188 @@
     "callBtn": "전화 지원"
   },
   "footer": {
-    "title": "K-AI GLOBAL VALUE CHAIN BUSINESS MATCHING 2026",
-    "orgs": "KOSME × TECH VALLEY",
+    "title": "한국 인공지능 글로벌 밸류 체인 비즈니스 매칭 2026",
+    "orgs": "KOSME × Tech Valley",
     "tagline": "글로벌 밸류 체인을 위한 한국-베트남 기술 연결.",
     "event": "행사",
     "business": "비즈니스",
     "legal": "법적 고지",
-    "copyright": "© 2025 K-AI Global Value Chain Business Matching Summit. Hosted by KOSME & Tech Valley."
+    "copyright": "© 2026 한국 인공지능 글로벌 밸류 체인 비즈니스 매칭 서밋. 주최: KOSME & Tech Valley.",
+    "shapeTheFuture": "미래를 개척하십시오",
+    "techCollab": "기술 협력",
+    "joinNetwork": "한국과 베트남의 기술 혁신가들의 독점적인 네트워크에 참여하십시오.",
+    "successSub": "성공적으로 구독되었습니다!",
+    "emailPlaceholder": "회사 이메일을 입력하세요",
+    "subscribe": "구독하기",
+    "subscribing": "...",
+    "failSub": "구독에 실패했습니다. 다시 시도해 주세요.",
+    "kai": "한국 인공지능",
+    "globalValueChain": "글로벌 밸류 체인",
+    "connecting": "한국의 선도적인 인공지능, 로보틱스 및 자동화 혁신 기업들과 베트남의 빠르게 성장하는 디지털 경제를 연결합니다.",
+    "consultation": "1:1 상담",
+    "regHub": "등록 센터",
+    "contactSupport": "고객 지원 연락처",
+    "sponsorships": "후원",
+    "organizedBy": "주최",
+    "privacy": "개인정보 보호 프레임워크",
+    "terms": "서비스 약관",
+    "rights": "© 2026 한국 인공지능 글로벌 밸류 체인. 모든 권리 보유."
   },
   "logistics": {
     "sectionLabel": "현장 물류 및 장소",
-    "title": "SIHUB 사이공 이노베이션 허브",
+    "title": "SIHUB SIHUB",
     "subtitle": "호치민 최고의 기술 혁신 허브에서 개최됩니다. 밀도 높은 미팅 부스와 풀 데리게이트 서비스가 제공됩니다.",
     "badge": {
-      "prefix": "모든 참석자를 위한 무료 Grab 코드 및 ",
+      "prefix": "모든 참석자를 위한 무료 차량 호출 코드 및 ",
       "highlight": "식사 바우처",
       "suffix": " 제공"
     },
     "card1": {
       "badge": "SIHUB",
       "title": "SIHUB",
-      "desc": "273 Dien Bien Phu, Ward 7, District 3, Ho Chi Minh City. Accessible central business corridor with reserved delegate parking."
+      "desc": "호치민시 3군 제7프엉 디엔비엔푸 273. 참석자 전용 주차장이 마련된 접근성 좋은 중심 업무 지구."
     },
     "card2": {
-      "badge": "1:1 Meeting",
-      "title": "Business matching (1:1)",
-      "desc": "Private partitioned consultation booths equipped with dedicated translators, digital presentation monitors, and concierge support."
+      "badge": "1대1 미팅",
+      "title": "비즈니스 매칭 (1대1)",
+      "desc": "전담 통역사, 발표용 화면 및 전담 안내 지원을 갖춘 독립된 비즈니스 상담 부스."
     },
     "card3": {
-      "badge": "Networking",
-      "title": "Network Lunch (12pm)-23 Oct",
-      "desc": "An intimate lunch to network, share ideas, and forge new collaboration opportunities."
+      "badge": "네트워킹",
+      "title": "네트워킹 오찬 (오후 12시) - 10월 23일",
+      "desc": "서로 교류하고, 의견을 나누며 새로운 협력 기회를 창출하는 친목 오찬."
     },
     "card4": {
-      "badge": "Networking",
-      "title": "Startup meet-up at dinner (6pm) on 23 Oct",
-      "desc": "A dinner meet-up for startups to network, share visions, and build strategic partnerships."
+      "badge": "네트워킹",
+      "title": "스타트업 저녁 모임 (오후 6시) - 10월 23일",
+      "desc": "창업 기업들이 교류하고, 목표를 공유하며 전략적 동반자 관계를 구축하는 저녁 모임."
     },
     "card5": {
-      "badge": "Seminar",
-      "title": "Seminar by TechValley (Patrick kim)",
-      "desc": "TechValley Seminar with Patrick Kim: Navigating the future of AI and business strategy."
+      "badge": "세미나",
+      "title": "Tech Valley 세미나 (Patrick Kim)",
+      "desc": "Patrick Kim과 함께하는 Tech Valley 세미나: 인공지능의 미래와 비즈니스 전략 탐색."
     },
     "card6": {
-      "badge": "Research",
-      "title": "Market research by TechValley",
-      "desc": "In-depth Go-To-Market strategies and consulting insights for Smart City, Cloud computing, and AI sectors in Vietnam."
+      "badge": "리서치",
+      "title": "Tech Valley의 시장 조사",
+      "desc": "베트남의 스마트 시티, 클라우드 컴퓨팅 및 인공지능 부문에 대한 심층적인 시장 진출 전략 및 컨설팅 인사이트."
     }
+  },
+  "companiesList": {
+    "ids": {
+      "name": "InData System",
+      "industry": "제조업",
+      "description": "스마트 산업용 엣지 데이터 및 운영 데이터 솔루션.",
+      "details": "대용량 생산 라인을 위한 자동화된 산업용 엣지 센서 및 운영 데이터 전송 솔루션을 제공하는 지능형 데이터 솔루션.",
+      "products": [
+        "엣지 데이터 커넥터 - 실시간 사물인터넷 센서 데이터 수집기",
+        "공장 분석기 - 설비 종합 효율 및 가동 중지 시간 추적용 클라우드 대시보드"
+      ]
+    },
+    "deep-visions": {
+      "name": "DeepVisions",
+      "industry": "컴퓨터 비전",
+      "description": "교통 및 소매 환경을 위한 인공지능 기반 시각 지능.",
+      "details": "대중교통의 군중 밀도 분석 및 소매 공간 지능에 특화된 차세대 시각 인공지능 알고리즘.",
+      "products": [
+        "교통 비전 인공지능 - 승객 수 계산 및 밀도 경고 시스템",
+        "소매 히트맵 - 매장 내 고객 여정 추적 소프트웨어"
+      ]
+    },
+    "hyperstar": {
+      "name": "Hyberstar",
+      "industry": "마케팅 인공지능",
+      "description": "인공지능 기반 실시간 상거래 및 숏폼 콘텐츠 자동화.",
+      "details": "동남아시아 소셜 커머스 시장에 맞춤화된 실시간 상거래 및 자동화된 숏비디오 툴체인을 위한 포괄적인 인텔리전스.",
+      "products": [
+        "하이퍼라이브 스튜디오 - 인공지능 가상 호스트 및 배경 생성",
+        "쇼츠 자동화기 - 1시간 스트리밍을 짧은 영상으로 자동 클리핑하는 도구"
+      ]
+    },
+    "quantit": {
+      "name": "Quantit",
+      "industry": "금융 기술",
+      "description": "계량적 금융 분석 및 자동화된 기관 위험 모델링.",
+      "details": "고속 계량 금융 엔진, 기관급 자동화된 위험 분석 시스템 및 포트폴리오 변동성 예측 모델.",
+      "products": [
+        "퀀팃 핀터 - 인공지능 투자 포트폴리오 최적화 엔진",
+        "위험 수호자 - 실시간 시장 붕괴 이상 징후 감지 응용 프로그램 인터페이스"
+      ]
+    },
+    "fieldro": {
+      "name": "Fieldro",
+      "industry": "로보틱스",
+      "description": "복잡한 산업 환경을 위한 자율 이동 로보틱스.",
+      "details": "복잡한 산업 지형, 스마트 건설 현장 및 컨테이너 야적장을 위해 설계된 실외 자율 이동 로봇.",
+      "products": [
+        "필드봇 X1 - 대형 실외 순찰 및 검사 로봇",
+        "현장 매퍼 - 건설 현장용 3차원 라이다 매핑 소프트웨어"
+      ]
+    },
+    "avalve": {
+      "name": "AVALVE",
+      "industry": "농업 기술",
+      "description": "인공지능 기반 스마트 농업 및 실시간 작물 진단.",
+      "details": "실시간 작물 질병 진단, 자동화된 영양 공급 및 기후 조건 최적화를 갖춘 자동화된 스마트 농업 플랫폼.",
+      "products": [
+        "스마트 농장 - 중앙 집중식 온실 기후 및 영양 컨트롤러",
+        "작물 비전 - 즉각적인 식물 잎 질병 진단을 위한 모바일 애플리케이션"
+      ]
+    },
+    "cytur": {
+      "name": "CYTUR",
+      "industry": "사이버 보안",
+      "description": "선박, 항만 및 운영 기술 환경을 위한 해양 사이버 보안.",
+      "details": "해양 에너지 선박, 항구 원격 측정 및 운영 기술 네트워크를 보호하는 해양 사이버 보안 솔루션 제품군.",
+      "products": [
+        "해양 쉴드 - 선박-육상 암호화 데이터 게이트웨이",
+        "운영 기술 침입 탐지기 - 항만 터미널을 위한 수동적 네트워크 모니터링"
+      ]
+    },
+    "addd": {
+      "name": "addd",
+      "industry": "스마트 빌딩",
+      "description": "엣지 기반 익명 공간 및 교통 분석.",
+      "details": "익명 엣지 컴퓨팅을 통한 프로그래매틱 옥외 교통 센서 및 디지털 빌보드 공간 상호 작용 분석.",
+      "products": [
+        "공간 감지 노드 - 유동 인구를 위한 개인정보 보호 우선 엣지 인공지능 카메라",
+        "광고 측정 보드 - 디지털 사이니지 시선 및 주의력 추적기"
+      ]
+    },
+    "gauss-lab": {
+      "name": "Gauss Lab",
+      "industry": "에너지",
+      "description": "청정 전력망 균형, 배터리 최적화 및 태양광 발전 예측.",
+      "details": "청정 전력망 균형 모델, 배터리 에너지 저장 시스템 수명 주기 최적화 및 태양광 발전 예측 데이터.",
+      "products": [
+        "가우스 에너지 저장 장치 최적화기 - 배터리 수명 연장 및 충전 알고리즘",
+        "솔라캐스트 인공지능 - 72시간 초국지적 태양광 전력 생산량 예측기"
+      ]
+    },
+    "nextlab": {
+      "name": "nextlab",
+      "industry": "테스트 자동화",
+      "description": "인공지능 기반 자동화 테스트 및 디지털 전환.",
+      "details": "통신, 멀티미디어 하드웨어 스트림 테스트 및 엔터프라이즈 디지털 서비스 규정 준수를 위한 포괄적인 인공지능 자동화 테스트 프레임워크.",
+      "products": [
+        "자동 테스터 프로 - 코드 없는 자동화된 사용자 인터페이스 테스트 플랫폼",
+        "스트림 체크 - 실시간 비디오 및 오디오 하드웨어 지연 시간 분석기"
+      ]
+    }
+  },
+  "legalModal": {
+    "privacyTitle": "개인정보 보호 프레임워크",
+    "p1": "1. 데이터 수집: 비즈니스 매칭 및 행사 등록을 촉진하는 데 필요한 전문 연락처 정보(예: 이름, 회사, 직함, 이메일 주소)를 수집합니다.",
+    "p2": "2. 정보 이용: 본 정보는 2026년 양자 정상회의 전후로 1:1 비즈니스 상담을 구성하고, 행사 업데이트를 제공하며, 물류를 조정하는 데 독점적으로 사용됩니다.",
+    "p3": "3. 데이터 공유: 귀하의 전문적인 세부 정보는 상담 일정을 잡기 위해 상대방(한국 또는 베트남 기업)과 공유될 수 있습니다. 데이터는 제3자 마케터에게 판매되지 않습니다.",
+    "p4": "4. 보안: 저희는 무단 액세스나 공개로부터 귀하의 데이터를 보호하기 위해 업계 표준 보안 조치를 시행합니다.",
+    "p5": "5. 귀하의 권리: 귀하는 당사 지원팀에 연락하여 언제든지 개인 데이터에 대한 액세스, 수정 또는 삭제를 요청할 수 있는 권리가 있습니다.",
+    "termsTitle": "서비스 약관",
+    "t1": "1. 행사 참여: 2026년 양자 정상회의 등록이 확인을 보장하는 것은 아닙니다. 주최측(KOSME 및 Tech Valley)은 비즈니스 관련성과 매칭 용량을 기반으로 참가자를 선택할 권리를 보유합니다.",
+    "t2": "2. 행동 강령: 모든 대표단은 전문적으로 행동할 것으로 기대됩니다. 주최측은 부적절한 행동에 대해 액세스를 취소할 권리를 보유합니다.",
+    "t3": "3. 미디어 릴리스: 행사에 참석함으로써 귀하는 사진이나 비디오 촬영에 동의하게 됩니다. 이 자료는 홍보 및 보관 목적으로 사용될 수 있습니다.",
+    "t4": "4. 지적 재산권: 기조 연설이나 1:1 상담 중에 공유되는 모든 자료, 프레젠테이션 또는 데이터는 각 소유자의 지적 재산으로 유지됩니다.",
+    "t5": "5. 책임: 주최측은 정상회의 동안 개최된 상담으로 인해 발생하는 직간접적인 사업 결과, 파트너십 또는 합의에 대해 책임을 지지 않습니다.",
+    "understand": "이해했습니다"
   }
 }

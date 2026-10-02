@@ -30,12 +30,12 @@ export default function Agenda() {
             transition={{ delay: 0.1 }}
             className="text-gray-500 font-medium tracking-widest uppercase"
           >
-            23 OCTOBER 2026
+            {t('hero.date')}
           </motion.p>
         </div>
 
         {/* Desktop Horizontal Timeline */}
-        <div className="hidden lg:block relative mt-48 md:mt-56 mb-40">
+        <div className="hidden lg:block relative mt-48 md:mt-56 mb-64">
           {/* Main Horizontal Line */}
           <div className="absolute top-1/2 left-4 right-4 h-0.5 bg-gray-200 -translate-y-1/2"></div>
           

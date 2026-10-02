@@ -110,7 +110,8 @@
   },
   "companies": {
     "title": "10 BUSINESS MATCHING AREA",
-    "bookMeeting": "BOOK 1:1 MEETING"
+    "bookMeeting": "BOOK 1:1 MEETING",
+    "booth": "BOOTH"
   },
   "agenda": {
     "title": "THE DAY AT A GLANCE",
@@ -163,7 +164,14 @@
       "distribution": "Distribution",
       "rd": "R&D partnership"
     },
-    "cta": "CONFIRM 1:1 REQUEST"
+    "cta": "CONFIRM 1:1 REQUEST",
+    "requestSent": "Request Sent",
+    "select": "-- Select --",
+    "additionalOptions": "Additional Options",
+    "submitting": "SUBMITTING...",
+    "successTitle": "Meeting Requested!",
+    "successText": "Your 1:1 meeting request has been recorded. Our team will verify the schedule and send a confirmation shortly.",
+    "close": "CLOSE"
   },
   "perks": {
     "headline": "YOUR VISIT, FULLY SUPPORTED.",
@@ -177,7 +185,7 @@
     },
     "dinner": {
       "title": "EXECUTIVE DINNER",
-      "text": "Exclusive evening networking with executives, government representatives and investors."
+      "text": "Exclusive evening networking with executives and investors."
     }
   },
   "venue": {
@@ -216,7 +224,8 @@
       "title": "Registration Received!",
       "text": "Thank you for registering for the K-AI GLOBAL VALUE CHAIN. Our team will review your application and send a confirmation to your email shortly.",
       "button": "SUBMIT ANOTHER"
-    }
+    },
+    "qrCode": "Event QR Code"
   },
   "contact": {
     "title": "NEED ASSISTANCE?",
@@ -232,7 +241,26 @@
     "event": "EVENT",
     "business": "BUSINESS",
     "legal": "LEGAL",
-    "copyright": "© 2025 K-AI Global Value Chain Business Matching Event. Hosted by KOSME & Tech Valley."
+    "copyright": "© 2025 K-AI Global Value Chain Business Matching Event. Hosted by KOSME & Tech Valley.",
+    "shapeTheFuture": "Shape the Future of",
+    "techCollab": "Tech Collaboration",
+    "joinNetwork": "Join the exclusive network of Korean and Vietnamese tech innovators.",
+    "successSub": "Successfully subscribed!",
+    "emailPlaceholder": "Enter your corporate email",
+    "subscribe": "Subscribe",
+    "subscribing": "...",
+    "failSub": "Failed to subscribe. Please try again.",
+    "kai": "K-AI",
+    "globalValueChain": "GLOBAL VALUE CHAIN",
+    "connecting": "Connecting Korea's leading AI, Robotics, and Automation innovators with Vietnam's rapidly growing digital economy.",
+    "consultation": "1:1 Consultation",
+    "regHub": "Registration Hub",
+    "contactSupport": "Contact Support",
+    "sponsorships": "Sponsorships",
+    "organizedBy": "Organized By",
+    "privacy": "Privacy Framework",
+    "terms": "Terms of Service",
+    "rights": "© 2026 K-AI GLOBAL VALUE CHAIN. All rights reserved."
   },
   "logistics": {
     "sectionLabel": "On-Site Logistics",
@@ -273,5 +301,122 @@
       "title": "Market research by TechValley",
       "desc": "In-depth Go-To-Market strategies and consulting insights for Smart City, Cloud computing, and AI sectors in Vietnam."
     }
+  },
+  "companiesList": {
+    "ids": {
+      "name": "InData System",
+      "industry": "MANUFACTURING",
+      "description": "Smart industrial edge data and operational data solutions.",
+      "details": "Intelligent data solutions providing automated industrial edge sensors and operational data transmission solutions for large-capacity production lines.",
+      "products": [
+        "Edge Data Connector (EDC) - Real-time IoT sensor data aggregator",
+        "IDS Factory Analytics - Cloud dashboard for OEE and downtime tracking"
+      ]
+    },
+    "deep-visions": {
+      "name": "DeepVisions",
+      "industry": "COMPUTER VISION",
+      "description": "AI-powered visual intelligence for transportation and retail environments.",
+      "details": "Next-generation visual AI algorithms specialized in crowd density analysis in public transit and retail spatial intelligence.",
+      "products": [
+        "Transit Vision AI - Passenger counting & density alert system",
+        "RetailHeatmap - In-store customer journey tracking software"
+      ]
+    },
+    "hyperstar": {
+      "name": "Hyberstar",
+      "industry": "MARKETING AI",
+      "description": "AI-powered live-commerce and short-form content automation.",
+      "details": "Comprehensive intelligence for live-commerce and automated short-video toolchains tailored for the Southeast Asian social commerce market.",
+      "products": [
+        "HyperLive Studio - AI virtual host and background generation",
+        "ShortsAutomator - Auto-clipping tool for 1-hour streams into TikToks"
+      ]
+    },
+    "quantit": {
+      "name": "Quantit",
+      "industry": "FINTECH",
+      "description": "Quantitative financial analytics and automated institutional risk modeling.",
+      "details": "High-speed quantitative financial engines, institutional-grade automated risk analysis systems, and portfolio volatility forecasting models.",
+      "products": [
+        "Quantit FINTER - AI investment portfolio optimization engine",
+        "RiskGuardian - Real-time market crash anomaly detection API"
+      ]
+    },
+    "fieldro": {
+      "name": "Fieldro",
+      "industry": "ROBOTICS",
+      "description": "Autonomous mobile robotics for complex industrial environments.",
+      "details": "Outdoor autonomous mobile robots designed for complex industrial terrains, smart construction sites, and container yards.",
+      "products": [
+        "FieldBot X1 - Heavy-duty outdoor patrol & inspection robot",
+        "SiteMapper - 3D LiDAR mapping software for construction sites"
+      ]
+    },
+    "avalve": {
+      "name": "AVALVE",
+      "industry": "AGRITECH",
+      "description": "AI-powered smart agriculture and real-time crop diagnostics.",
+      "details": "Automated smart agriculture platform with real-time crop disease diagnostics, automated nutrient supply, and climate condition optimization.",
+      "products": [
+        "A-SmartFarm - Centralized greenhouse climate & nutrient controller",
+        "CropVision - Mobile app for instant plant leaf disease diagnosis"
+      ]
+    },
+    "cytur": {
+      "name": "CYTUR",
+      "industry": "CYBERSECURITY",
+      "description": "Maritime cybersecurity for vessels, ports and OT environments.",
+      "details": "Maritime cybersecurity solution suite protecting offshore energy vessels, seaport telemetry, and operational technology (OT) networks.",
+      "products": [
+        "CY-Shield Marine - Ship-to-shore encrypted data gateway",
+        "OT Intrusion Detector - Passive network monitoring for port terminals"
+      ]
+    },
+    "addd": {
+      "name": "addd",
+      "industry": "SMART BUILDING",
+      "description": "Edge-based anonymous spatial and traffic analytics.",
+      "details": "Programmatic outdoor traffic sensors and digital billboard spatial interaction analysis via anonymous edge computing.",
+      "products": [
+        "SpaceSense Node - Privacy-first edge AI camera for foot traffic",
+        "AdMetric Board - Digital signage gaze and attention tracker"
+      ]
+    },
+    "gauss-lab": {
+      "name": "Gauss Lab",
+      "industry": "ENERGY",
+      "description": "Clean-grid balancing, battery optimization and solar generation forecasting.",
+      "details": "Clean grid balancing models, battery energy storage system lifecycle optimization, and solar power generation forecasting data.",
+      "products": [
+        "Gauss ESS Optimizer - Battery life extension and charging algorithm",
+        "SolarCast AI - 72-hour hyper-local solar power yield predictor"
+      ]
+    },
+    "nextlab": {
+      "name": "nextlab",
+      "industry": "TEST AUTOMATION & DX",
+      "description": "AI-powered automated testing and digital transformation.",
+      "details": "Comprehensive AI automated testing framework for telecommunications, multimedia hardware stream testing, and enterprise digital service compliance.",
+      "products": [
+        "AutoTester Pro - No-code automated UI/UX testing platform",
+        "StreamCheck - Real-time video/audio hardware latency analyzer"
+      ]
+    }
+  },
+  "legalModal": {
+    "privacyTitle": "Privacy Framework",
+    "p1": "1. Data Collection: We collect professional contact information necessary for facilitating business matching and event registration (e.g., name, company, job title, email address).",
+    "p2": "2. Use of Information: The information is exclusively used to organize 1:1 business consultations, provide event updates, and coordinate logistics prior to and during the BILATERAL SUMMIT 2026.",
+    "p3": "3. Data Sharing: Your professional details may be shared with matching counterparties (Korean or Vietnamese companies) specifically for the purpose of scheduling consultations. Data will not be sold to third-party marketers.",
+    "p4": "4. Security: We implement industry-standard security measures to ensure your data is protected against unauthorized access or disclosure.",
+    "p5": "5. Your Rights: You have the right to request access to, modification, or deletion of your personal data at any time by contacting our support team.",
+    "termsTitle": "Terms of Service",
+    "t1": "1. Event Participation: Registration for the BILATERAL SUMMIT 2026 does not guarantee confirmation. The organizers (KOSME & Tech Valley) reserve the right to select participants based on business relevance and matching capacity.",
+    "t2": "2. Code of Conduct: All delegates are expected to conduct themselves professionally. The organizers reserve the right to revoke access for any inappropriate behavior.",
+    "t3": "3. Media Release: By attending the event, you consent to being photographed or recorded. These materials may be used for promotional and archival purposes.",
+    "t4": "4. Intellectual Property: Any materials, presentations, or data shared during the keynote sessions or 1:1 consultations remain the intellectual property of their respective owners.",
+    "t5": "5. Liability: The organizers are not liable for any direct or indirect business outcomes, partnerships, or agreements that arise from consultations held during the summit.",
+    "understand": "I Understand"
   }
 }

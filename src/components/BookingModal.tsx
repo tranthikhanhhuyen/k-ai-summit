@@ -74,7 +74,7 @@ export default function BookingModal({ isOpen, onClose, preselectedCompany }: Pr
         >
           <div className="p-6 md:p-8 border-b border-gray-100 flex justify-between items-center bg-soft-gray/50 sticky top-0 z-10">
             <h2 className="text-xl md:text-2xl font-bold text-deep-navy">
-              {!isSubmitted ? t('bookingModal.title') : 'Request Sent'}
+              {!isSubmitted ? t('bookingModal.title') : t('bookingModal.requestSent')}
             </h2>
             <button onClick={handleClose} className="p-2 hover:bg-gray-200 rounded-full text-gray-500 transition-colors">
               <X className="w-5 h-5" />
@@ -100,9 +100,9 @@ export default function BookingModal({ isOpen, onClose, preselectedCompany }: Pr
                       required
                       className="w-full bg-soft-gray border border-gray-200 px-4 py-3 rounded focus:outline-none focus:border-corporate-blue focus:ring-1 focus:ring-corporate-blue transition-colors text-deep-navy appearance-none"
                     >
-                      <option value="" disabled>-- Select --</option>
+                      <option value="" disabled>{t('bookingModal.select')}</option>
                       {companies.map(c => (
-                        <option key={c.id} value={c.id}>{c.name}</option>
+                        <option key={c.id} value={c.id}>{t(`companiesList.${c.id}.name`, { defaultValue: c.name })}</option>
                       ))}
                     </select>
                   </div>
@@ -110,7 +110,7 @@ export default function BookingModal({ isOpen, onClose, preselectedCompany }: Pr
                   <div>
                     <label className="block text-xs font-bold text-gray-500 tracking-wider mb-2">{t('bookingModal.selectTime')}</label>
                     <select name="timeSlot" required className="w-full bg-soft-gray border border-gray-200 px-4 py-3 rounded focus:outline-none focus:border-corporate-blue focus:ring-1 focus:ring-corporate-blue transition-colors text-deep-navy appearance-none">
-                      <option value="" disabled>-- Select --</option>
+                      <option value="" disabled>{t('bookingModal.select')}</option>
                       <optgroup label={t('bookingModal.morning')}>
                         <option value="10:00">10:00 – 10:25</option>
                         <option value="10:30">10:30 – 10:55</option>
@@ -127,7 +127,7 @@ export default function BookingModal({ isOpen, onClose, preselectedCompany }: Pr
                   </div>
 
                   <div className="pt-4 border-t border-gray-100">
-                    <label className="block text-xs font-bold text-gray-500 tracking-wider mb-4 uppercase">Additional Options</label>
+                    <label className="block text-xs font-bold text-gray-500 tracking-wider mb-4 uppercase">{t('bookingModal.additionalOptions')}</label>
                     <div className="space-y-4">
                       <label className="flex items-start cursor-pointer group">
                         <div className="flex-shrink-0 mt-0.5">
@@ -154,7 +154,7 @@ export default function BookingModal({ isOpen, onClose, preselectedCompany }: Pr
 
                   <div className="pt-8">
                     <button type="submit" disabled={isSubmitting} className="w-full bg-deep-navy hover:bg-corporate-blue text-white py-4 rounded font-bold tracking-wide transition-colors shadow-lg disabled:opacity-70 disabled:cursor-not-allowed">
-                      {isSubmitting ? 'SUBMITTING...' : t('bookingModal.cta')}
+                      {isSubmitting ? t('bookingModal.submitting') : t('bookingModal.cta')}
                     </button>
                   </div>
                 </motion.form>
@@ -168,15 +168,15 @@ export default function BookingModal({ isOpen, onClose, preselectedCompany }: Pr
                   <div className="w-20 h-20 bg-green-50 rounded-full flex items-center justify-center mb-6">
                     <CheckCircle2 className="w-10 h-10 text-green-500" />
                   </div>
-                  <h3 className="text-2xl font-bold text-deep-navy mb-4">Meeting Requested!</h3>
+                  <h3 className="text-2xl font-bold text-deep-navy mb-4">{t('bookingModal.successTitle')}</h3>
                   <p className="text-gray-500 mb-8 max-w-sm">
-                    Your 1:1 meeting request has been recorded. Our team will verify the schedule and send a confirmation shortly.
+                    {t('bookingModal.successText')}
                   </p>
                   <button 
                     onClick={handleClose}
                     className="w-full bg-soft-gray hover:bg-gray-200 text-deep-navy py-4 rounded font-bold tracking-wide transition-colors"
                   >
-                    CLOSE
+                    {t('bookingModal.close')}
                   </button>
                 </motion.div>
               )}

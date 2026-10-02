@@ -4,7 +4,11 @@ import { motion } from 'framer-motion';
 import { companies } from '../data/companies';
 
 function CompanyCard({ company, idx }: { company: any, idx: number }) {
-  const industryText = company.industry.trim().toUpperCase().endsWith('AI') ? company.industry.trim() : `${company.industry.trim()} AI`;
+  const { t } = useTranslation();
+  
+  // Use translated industry if available
+  const rawIndustry = t(`companiesList.${company.id}.industry`, { defaultValue: company.industry });
+  const industryText = rawIndustry.trim().toUpperCase();
 
   return (
     <motion.a
@@ -28,7 +32,7 @@ function CompanyCard({ company, idx }: { company: any, idx: number }) {
       <div className="w-full h-16 md:h-20 flex items-center justify-center">
         <img 
           src={`/assets/logos/${company.id}.png`} 
-          alt={`${company.name} logo`} 
+          alt={t(`companiesList.${company.id}.name`, { defaultValue: company.name })} 
           className="max-w-[85%] max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
         />
       </div>
@@ -60,7 +64,6 @@ export default function CompanyDirectory() {
           {t('companies.title')}
         </motion.h2>
 
-        {/* Grid Layout: 2 cols on mobile, 3 on tablet, 5 on desktop */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 lg:gap-8">
           {companies.map((company, idx) => (
             <CompanyCard key={company.id} company={company} idx={idx} />

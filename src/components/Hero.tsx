@@ -33,12 +33,12 @@ export default function Hero({ onBook }: { onBook: () => void }) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tight leading-[1.1] mb-6 flex flex-col"
+            className="text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tight leading-[1.3] mb-6 flex flex-col"
           >
             <span className="text-xl md:text-2xl font-bold text-blue-300 tracking-widest uppercase mb-4">{t('hero.title1')}</span>
-            <span>
-              K-AI <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">GLOBAL VALUE CHAIN</span>
+            <span className="flex flex-col gap-2 md:gap-4 mt-2">
+              <span>{t('hero.title2')}</span>
+              <span className="text-gray-200">{t('hero.title3')}</span>
             </span>
           </motion.h1>
 
@@ -48,7 +48,7 @@ export default function Hero({ onBook }: { onBook: () => void }) {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-2xl text-gray-300 font-medium mb-10 max-w-2xl leading-relaxed"
           >
-            Connecting Korea's leading AI & tech innovators with Vietnam's rapidly growing digital ecosystem.
+            {t('hero.description')}
           </motion.p>
 
           <motion.div 

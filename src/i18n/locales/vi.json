@@ -1,14 +1,14 @@
 {
   "header": {
     "organization": "KOSME × TECH VALLEY",
-    "dateLocation": "23 THÁNG 10, 2026 · SIHUB SAIGON INNOVATION HUB",
-    "perks": "Tặng mã Grab và voucher ăn uống cho đại biểu tham dự",
-    "title": "K-AI Global Value Chain - BUSINESS MATCHING",
+    "dateLocation": "23 THÁNG 10, 2026 · Trung tâm Đổi mới sáng tạo Sài Gòn (SIHUB)",
+    "perks": "Tặng mã ứng dụng gọi xe và phiếu ăn uống cho người tham dự",
+    "title": "K-AI – Kết Nối Chuỗi Giá Trị Toàn Cầu - Kết Nối Kinh Doanh",
     "nav": {
       "overview": "Tổng quan",
       "agenda": "Lịch trình",
       "focusAreas": "Lĩnh vực",
-      "aiCompanies": "Doanh nghiệp AI",
+      "aiCompanies": "Doanh nghiệp Hàn Quốc",
       "venue": "Địa điểm & Đãi ngộ"
     },
     "register": "Đăng ký ngay"
@@ -17,14 +17,14 @@
     "initiative": "SÁNG KIẾN MỞ RỘNG CÔNG NGHỆ CAO HÀN QUỐC-VIỆT NAM",
     "organizedBy": "Đồng tổ chức bởi KOSME • Tech Valley",
     "title1": "SỰ KIỆN KẾT NỐI DOANH NGHIỆP 2026",
-    "title2": "K-AI GLOBAL",
-    "title3": "VALUE CHAIN",
+    "title2": "K-AI",
+    "title3": "KẾT NỐI CHUỖI GIÁ TRỊ TOÀN CẦU",
     "subtitle": "KẾT NỐI KINH DOANH",
-    "description": "Kết nối trực tiếp các đơn vị tiên phong về Trí tuệ nhân tạo, Robotics và Tự động hóa công nghiệp hàng đầu của Hàn Quốc với các doanh nghiệp Việt Nam.",
-    "registerBtn": "ĐĂNG KÝ TƯ VẤN 1:1",
-    "downloadPdf": "TẢI LỊCH TRÌNH SỰ KIỆN PDF",
+    "description": "Mở ra cơ hội hợp tác chiến lược giữa các doanh nghiệp dẫn đầu về AI, Robot và Tự động hóa của Hàn Quốc với các đối tác tại Việt Nam.",
+    "registerBtn": "ĐĂNG KÝ KẾT NỐI 1:1",
+    "downloadPdf": "TẢI CHƯƠNG TRÌNH (PDF)",
     "date": "23 THÁNG 10, 2026",
-    "venue": "SIHUB · TP. HỒ CHÍ MINH",
+    "venue": "Trung tâm Đổi mới sáng tạo Sài Gòn (SIHUB), TP. HỒ CHÍ MINH",
     "duration": "SỰ KIỆN CẢ NGÀY",
     "contact": {
       "email": "giang@techvalleyvn.net",
@@ -33,20 +33,20 @@
   },
   "snapshot": {
     "date": "23 THG 10 2026",
-    "venue": "SIHUB TP. HỒ CHÍ MINH",
-    "companies": "DOANH NGHIỆP AI HÀN QUỐC",
+    "venue": "Trung tâm Đổi mới sáng tạo Sài Gòn (SIHUB), TP. HỒ CHÍ MINH",
+    "companies": "DOANH NGHIỆP HÀN QUỐC",
     "matching": "KẾT NỐI KINH DOANH 1:1"
   },
   "about": {
-    "headline": "XÂY DỰNG KẾT NỐI. TẠO RA CƠ HỘI. THAM GIA CHUỖI GIÁ TRỊ TOÀN CẦU.",
-    "description": "Nền tảng kết nối kinh doanh chuyên sâu được thiết kế để kết nối các nhà đổi mới AI Hàn Quốc với các doanh nghiệp và tổ chức Việt Nam.",
+    "headline": "KẾT NỐI DOANH NGHIỆP. KIẾN TẠO CƠ HỘI. GIA NHẬP CHUỖI GIÁ TRỊ TOÀN CẦU.",
+    "description": "K-AI KẾT NỐI CHUỖI GIÁ TRỊ TOÀN CẦU là nền tảng giao thương B2B độc quyền, được thiết kế chuyên biệt nhằm thúc đẩy quan hệ đối tác xuyên biên giới giữa các công ty công nghệ tiên phong của Hàn Quốc và các doanh nghiệp Việt Nam. Trọng tâm của sự kiện là những cuộc gặp gỡ 1:1 được tinh chỉnh kỹ lưỡng, mang đến không gian lý tưởng để cùng thảo luận về công nghệ, mở rộng thị trường và tìm kiếm cơ hội đầu tư chiến lược.",
     "discover": {
       "title": "KHÁM PHÁ",
-      "text": "Khám phá các công nghệ AI và công nghiệp mới nổi của Hàn Quốc."
+      "text": "Khám phá các công nghệ Trí tuệ nhân tạo và công nghiệp mới nổi của Hàn Quốc."
     },
     "connect": {
       "title": "KẾT NỐI",
-      "text": "Gặp gỡ các nhà cung cấp công nghệ thông qua các buổi tư vấn 1:1."
+      "text": "Gặp gỡ các nhà cung cấp công nghệ thông qua các buổi kết nối kinh doanh 1:1."
     },
     "expand": {
       "title": "MỞ RỘNG",
@@ -54,169 +54,181 @@
     }
   },
   "focusAreas": {
-    "title": "10 LĨNH VỰC KẾT NỐI KINH DOANH",
+    "title": "10 LĨNH VỰC TRỌNG ĐIỂM",
     "areas": [
       {
         "id": 1,
-        "title": "Sản xuất & Công nghiệp",
-        "description": "Kiểm tra quang học tự động, thuật toán phát hiện lỗi sản phẩm, bảo trì máy móc dự đoán, bản sao kỹ thuật số (digital twins)."
+        "title": "Sản xuất",
+        "description": "Kiểm tra quang học tự động, thuật toán phát hiện lỗi sản phẩm, bảo trì máy móc dự đoán, bản sao kỹ thuật số (bản sao kỹ thuật số)."
       },
       {
         "id": 2,
-        "title": "Robot & Hậu cần",
-        "description": "Robot di động tự hành (AMR), trung tâm phân loại tự động, tối ưu hóa lộ trình đội xe và hệ điều hành robotics."
+        "title": "Công nghệ Robot",
+        "description": "Robot di động tự hành (Robot tự hành), trung tâm phân loại tự động, tối ưu hóa lộ trình đội xe và hệ điều hành hệ điều hành người máy."
       },
       {
         "id": 3,
-        "title": "Nông nghiệp & AgriTech",
-        "description": "Cảm biến nông nghiệp chính xác, điều hòa khí hậu nhà kính bằng AI, phân tích sức khỏe cây trồng và thu hoạch tự động."
+        "title": "Nông nghiệp Công nghệ cao",
+        "description": "Cảm biến nông nghiệp chính xác, điều hòa khí hậu nhà kính bằng trí tuệ nhân tạo, phân tích sức khỏe cây trồng và thu hoạch tự động."
       },
       {
         "id": 4,
-        "title": "Sân bay & Giao thông công cộng",
+        "title": "Giao thông",
         "description": "Mô phỏng luồng hành khách, bảo mật nhà ga sinh trắc học, xử lý hành lý tự động và lập lịch trình giao thông đô thị."
       },
       {
         "id": 5,
-        "title": "Tiếp thị, Bán lẻ & TMĐT",
-        "description": "Công cụ gợi ý cá nhân hóa bằng AI, tự động cắt ghép video cho live-commerce, mô hình hóa hành vi người tiêu dùng."
+        "title": "Bán lẻ",
+        "description": "Công cụ gợi ý cá nhân hóa bằng Trí tuệ nhân tạo, tự động cắt ghép video cho phát sóng trực tiếp bán hàng, mô hình hóa hành vi người tiêu dùng."
       },
       {
         "id": 6,
-        "title": "An ninh mạng Hàng hải",
-        "description": "Phòng thủ mạng cho tàu tự hành, bảo vệ truyền dữ liệu cảng biển, chống giả mạo tín hiệu AIS và an ninh vệ tinh hàng hải."
+        "title": "An ninh mạng",
+        "description": "Phòng thủ mạng cho tàu tự hành, bảo vệ truyền dữ liệu cảng biển, chống giả mạo tín hiệu hệ thống nhận dạng tự động và an ninh vệ tinh hàng hải."
       },
       {
         "id": 7,
-        "title": "Tài chính & FinTech",
+        "title": "Công nghệ Tài chính",
         "description": "Chấm điểm rủi ro theo thuật toán, ngăn chặn gian lận, tự động phân tích hồ sơ tài chính, phân bổ tài sản."
       },
       {
         "id": 8,
-        "title": "Năng lượng & Năng lượng tái tạo",
+        "title": "Năng lượng",
         "description": "Dự báo phụ tải lưới điện, quản lý lưu trữ pin mặt trời/gió, nâng cao độ tin cậy lưới điện vi mô và giám sát dấu chân carbon."
       },
       {
         "id": 9,
-        "title": "Hạ tầng & Tòa nhà thông minh",
-        "description": "Tối ưu hóa HVAC, giám sát độ biến dạng kết cấu công trình, bãi đỗ xe thông minh và vận hành không phát thải carbon."
+        "title": "Tòa nhà Thông minh",
+        "description": "Tối ưu hóa hệ thống sưởi và điều hòa không khí, giám sát độ biến dạng kết cấu công trình, bãi đỗ xe thông minh và vận hành không phát thải carbon."
       },
       {
         "id": 10,
-        "title": "AI, Thị giác máy tính & Chuyển đổi số",
-        "description": "Mô hình nền tảng doanh nghiệp, chưng cất LLM độc quyền, trạm thị giác máy tính biên và tự động hóa hệ thống CNTT cũ."
+        "title": "Trí tuệ nhân tạo",
+        "description": "Mô hình nền tảng doanh nghiệp, chưng cất mô hình ngôn ngữ lớn độc quyền, trạm thị giác máy tính biên và tự động hóa hệ thống CNTT cũ."
       }
-    ]
+    ],
+    "subtitle": "KHÁM PHÁ CÁC GIẢI PHÁP TIÊN PHONG"
   },
   "companies": {
-    "title": "10 BUSINESS MATCHING AREA",
-    "bookMeeting": "ĐẶT LỊCH HẸN 1:1"
+    "title": "DANH SÁCH DOANH NGHIỆP AI",
+    "bookMeeting": "ĐẶT LỊCH HẸN 1:1",
+    "booth": "GIAN HÀNG",
+    "subtitle": "KHÁM PHÁ ĐỐI TÁC TIỀM NĂNG"
   },
   "agenda": {
     "title": "LỊCH TRÌNH TÓM TẮT",
     "timeline": [
       {
         "time": "10:00 – 11:30",
-        "title": "TƯ VẤN KINH DOANH",
+        "title": "KẾT NỐI KINH DOANH",
         "description": "Vòng gặp gỡ, kết nối thương mại 1:1 phiên sáng."
       },
       {
         "time": "11:40 – 13:20",
-        "title": "TIỆC TRƯA KẾT NỐI",
+        "title": "TIỆC TRƯA KẾT NỐI: GIAO LƯU VÀ TRAO ĐỔI",
         "description": "Dùng bữa trưa kết hợp giao lưu và lắng nghe KOSME."
       },
       {
         "time": "14:00 – 16:30",
-        "title": "TƯ VẤN KINH DOANH",
-        "description": "Phiên thảo luận chuyên sâu thử nghiệm & hợp tác."
+        "title": "TƯ VẤN & HỢP TÁC DOANH NGHIỆP",
+        "description": "Thảo luận chuyên sâu và hợp tác."
       },
       {
         "time": "18:00 – 20:00",
-        "title": "DẠ TIỆC VIP",
-        "description": "Tiệc tối thân mật cùng đại biểu và nhà đầu tư."
+        "title": "DẠ TIỆC VIP: GIAO LƯU VÀ TRAO ĐỔI",
+        "description": "Tiệc tối thân mật cùng người tham dự và nhà đầu tư."
       }
     ],
     "interpreter": "Có bố trí phiên dịch viên song ngữ Hàn - Việt."
   },
   "matching": {
-    "headline": "BIẾN SỰ QUAN TÂM THÀNH QUAN HỆ ĐỐI TÁC.",
-    "supportText": "Gặp gỡ đối tác công nghệ phù hợp thông qua các buổi tư vấn kinh doanh 1:1 được chọn lọc.",
+    "headline": "Kết nối quan tâm, xây dựng hợp tác",
+    "supportText": "Chúng tôi đồng hành cùng bạn trong từng bước của quá trình kết nối giao thương để đảm bảo tính hiệu quả và phù hợp nhất.",
     "flow": {
-      "discover": "KHÁM PHÁ",
-      "select": "CHỌN CÔNG TY",
-      "choose": "CHỌN THỜI GIAN",
-      "request": "YÊU CẦU GẶP",
-      "consult": "TƯ VẤN KINH DOANH"
+      "discover": "Tìm hiểu",
+      "select": "Lựa chọn",
+      "choose": "Xếp lịch",
+      "request": "Yêu cầu",
+      "consult": "Gặp gỡ"
     },
-    "cta": "ĐẶT LỊCH HẸN 1:1"
+    "cta": "ĐĂNG KÝ KẾT NỐI GIAO THƯƠNG"
   },
   "bookingModal": {
-    "title": "ĐẶT LỊCH HẸN NHANH 1:1 VỚI DOANH NGHIỆP",
-    "selectCompany": "Chọn Công Ty",
-    "selectTime": "Chọn Thời Gian",
+    "title": "ĐĂNG KÝ KẾT NỐI 1:1",
+    "selectCompany": "Chọn Công ty",
+    "selectTime": "Chọn Thời gian",
     "morning": "Phiên Sáng",
     "afternoon": "Phiên Chiều",
     "options": {
       "interpreter": "Phiên dịch viên công nghệ song ngữ Hàn - Việt - Anh",
-      "pilot": "Thảo luận thử nghiệm (Pilot)",
+      "pilot": "Thảo luận thử nghiệm",
       "procurement": "Mua sắm giải pháp",
       "distribution": "Phân phối",
-      "rd": "Hợp tác R&D"
+      "rd": "Hợp tác nghiên cứu và phát triển"
     },
-    "cta": "XÁC NHẬN YÊU CẦU 1:1"
+    "cta": "XÁC NHẬN YÊU CẦU 1:1",
+    "requestSent": "Đã Gửi Yêu Cầu",
+    "select": "-- Chọn --",
+    "additionalOptions": "Tùy Chọn Bổ Sung",
+    "submitting": "ĐANG GỬI...",
+    "successTitle": "Đã Yêu Cầu Gặp Mặt!",
+    "successText": "Yêu cầu gặp mặt 1:1 của bạn đã được ghi nhận. Đội ngũ của chúng tôi sẽ xác minh lịch trình và gửi xác nhận sớm nhất.",
+    "close": "ĐÓNG",
+    "subtitle": "Lên lịch tư vấn riêng với các công ty công nghệ hàng đầu Hàn Quốc."
   },
   "perks": {
     "headline": "TRẢI NGHIỆM CỦA BẠN ĐƯỢC HỖ TRỢ TOÀN DIỆN.",
     "grab": {
-      "title": "TẶNG MÃ GRAB",
-      "text": "Tặng voucher di chuyển Grab (chiều đi/về) cho đại biểu đăng ký trước."
+      "title": "TẶNG MÃ DI CHUYỂN",
+      "text": "Tặng phiếu di chuyển (chiều đi/về) cho người tham dự đăng ký trước."
     },
     "lunch": {
       "title": "TIỆC TRƯA KẾT NỐI",
       "text": "Kết nối với các công ty tham gia và lãnh đạo doanh nghiệp."
     },
     "dinner": {
-      "title": "DẠ TIỆC VIP",
-      "text": "Tiệc tối độc quyền với giám đốc điều hành, đại diện chính phủ và nhà đầu tư."
+      "title": "DẠ TIỆC VIP: GIAO LƯU VÀ TRAO ĐỔI",
+      "text": "Tiệc tối độc quyền với giám đốc điều hành và nhà đầu tư."
     }
   },
   "venue": {
-    "title": "SIHUB SAIGON INNOVATION HUB",
+    "title": "Trung tâm Đổi mới sáng tạo Sài Gòn (SIHUB)",
     "address": "Tầng 2\n273 Điện Biên Phủ\nPhường 7, Quận 3\nTP. Hồ Chí Minh\nViệt Nam",
     "getDirections": "CHỈ ĐƯỜNG"
   },
   "registration": {
-    "headline": "THAM GIA CHUỖI GIÁ TRỊ TOÀN CẦU K-AI",
-    "subtitle": "Đăng ký tham gia Sự kiện Kết nối Kinh doanh Hàn-Việt.",
+    "headline": "THAM GIA K-AI – KẾT NỐI CHUỖI GIÁ TRỊ TOÀN CẦU",
+    "subtitle": "Vui lòng điền thông tin bên dưới để đăng ký tham gia sự kiện và xếp lịch kết nối kinh doanh.",
     "form": {
-      "name": "HỌ VÀ TÊN ĐẠI BIỂU *",
+      "name": "HỌ VÀ TÊN NGƯỜI THAM DỰ *",
       "email": "EMAIL DOANH NGHIỆP *",
       "company": "CƠ QUAN / CÔNG TY *",
       "phone": "SỐ ĐIỆN THOẠI DI ĐỘNG *",
       "industry": "LĨNH VỰC NGÀNH NGHỀ CHÍNH *",
-      "preferredPartner": "ĐỐI TÁC AI HÀN QUỐC MUỐN GẶP",
-      "objective": "MỤC TIÊU TƯ VẤN",
+      "preferredPartner": "DOANH NGHIỆP HÀN QUỐC MUỐN GẶP",
+      "objective": "MỤC TIÊU KẾT NỐI KINH DOANH",
       "objectives": {
         "pilot": "Thử nghiệm",
         "procurement": "Mua sắm",
         "distribution": "Phân phối độc quyền",
-        "rd": "Hợp tác R&D",
-        "tech": "Tư vấn Công nghệ",
+        "rd": "Hợp tác nghiên cứu và phát triển",
+        "tech": "Kết nối Kinh doanh Công nghệ",
         "other": "Khác"
       },
-      "interpreter": "Tôi yêu cầu hỗ trợ phiên dịch song ngữ Hàn - Việt.",
-      "transportation": "Tôi muốn nhận mã giảm giá Grab di chuyển.",
+      "interpreter": "Tôi cần hỗ trợ phiên dịch (Hàn - Việt)",
+      "transportation": "Tôi cần hỗ trợ di chuyển (Xe đưa đón)",
       "selectIndustry": "-- Chọn Ngành --",
       "selectPartner": "-- Không bắt buộc --",
       "submitting": "ĐANG GỬI..."
     },
-    "cta": "XÁC NHẬN ĐĂNG KÝ THAM DỰ",
+    "cta": "ĐĂNG KÝ THAM GIA",
     "calendar": "QUÉT ĐỂ LƯU SỰ KIỆN VÀO LỊCH",
     "success": {
-      "title": "Đã nhận đăng ký!",
-      "text": "Cảm ơn bạn đã đăng ký tham gia K-AI GLOBAL VALUE CHAIN. Nhóm của chúng tôi sẽ xem xét thông tin và gửi xác nhận qua email trong thời gian sớm nhất.",
+      "title": "Đăng ký Thành công!",
+      "text": "Cảm ơn bạn đã đăng ký tham gia sự kiện K-AI – KẾT NỐI CHUỖI GIÁ TRỊ TOÀN CẦU. Ban tổ chức sẽ sớm xem xét thông tin và gửi email xác nhận cho bạn.",
       "button": "ĐĂNG KÝ THÊM"
-    }
+    },
+    "qrCode": "Mã QR Sự kiện"
   },
   "contact": {
     "title": "CẦN HỖ TRỢ?",
@@ -226,52 +238,188 @@
     "callBtn": "GỌI HỖ TRỢ"
   },
   "footer": {
-    "title": "K-AI GLOBAL VALUE CHAIN BUSINESS MATCHING 2026",
+    "title": "KẾT NỐI KINH DOANH K-AI – KẾT NỐI CHUỖI GIÁ TRỊ TOÀN CẦU 2026",
     "orgs": "KOSME × TECH VALLEY",
-    "tagline": "Kết nối công nghệ công nghiệp và AI doanh nghiệp giữa Hàn Quốc và Việt Nam.",
+    "tagline": "Kết nối công nghệ công nghiệp và trí tuệ nhân tạo doanh nghiệp giữa Hàn Quốc và Việt Nam.",
     "event": "SỰ KIỆN",
     "business": "KINH DOANH",
     "legal": "PHÁP LÝ",
-    "copyright": "© 2025 K-AI Global Value Chain Business Matching Summit. Hosted by KOSME & Tech Valley."
+    "copyright": "© 2026 Hội nghị Kết nối Kinh doanh Chuỗi giá trị toàn cầu Trí tuệ nhân tạo Hàn Quốc. Được tổ chức bởi KOSME & Tech Valley.",
+    "shapeTheFuture": "Kiến tạo Tương lai cùng",
+    "techCollab": "Giải pháp Công nghệ",
+    "joinNetwork": "Tham gia mạng lưới độc quyền kết nối các nhà đổi mới công nghệ hàng đầu Việt - Hàn.",
+    "successSub": "Đăng ký nhận bản tin thành công!",
+    "emailPlaceholder": "Nhập email doanh nghiệp của bạn",
+    "subscribe": "Đăng ký",
+    "subscribing": "...",
+    "failSub": "Đăng ký thất bại. Vui lòng thử lại.",
+    "kai": "K-AI",
+    "globalValueChain": "KẾT NỐI CHUỖI GIÁ TRỊ TOÀN CẦU",
+    "connecting": "Cầu nối đưa các doanh nghiệp tiên phong về AI, Robot và Tự động hóa của Hàn Quốc đến với nền kinh tế số đang bứt phá mạnh mẽ tại Việt Nam.",
+    "consultation": "Kết nối B2B 1:1",
+    "regHub": "Đăng ký Tham dự",
+    "contactSupport": "Liên hệ Hỗ trợ",
+    "sponsorships": "Tài trợ",
+    "organizedBy": "Được Tổ Chức Bởi",
+    "privacy": "Khung Quyền Riêng Tư",
+    "terms": "Điều Khoản Dịch Vụ",
+    "rights": "© 2026 K-AI – KẾT NỐI CHUỖI GIÁ TRỊ TOÀN CẦU. Đã đăng ký bản quyền."
   },
   "logistics": {
-    "sectionLabel": "Hậu Cần & Địa Điểm",
-    "title": "SIHUB Saigon Innovation Hub",
-    "subtitle": "Tổ chức tại trung tâm đổi mới công nghệ hàng đầu của TP.HCM. Không gian họp tiêu chuẩn và tiện nghi đầy đủ cho đại biểu.",
+    "sectionLabel": "Chương Trình và Địa Điểm",
+    "title": "Trung tâm Đổi mới sáng tạo Sài Gòn",
+    "subtitle": "Tổ chức tại trung tâm đổi mới công nghệ hàng đầu của TP.HCM. Không gian họp tiêu chuẩn và tiện nghi đầy đủ cho người tham dự.",
     "badge": {
-      "prefix": "Miễn phí mã Grab & ",
+      "prefix": "Miễn phí mã di chuyển & ",
       "highlight": "voucher ăn uống",
       "suffix": " cho toàn bộ người tham dự"
     },
     "card1": {
-      "badge": "SIHUB",
-      "title": "SIHUB",
-      "desc": "273 Dien Bien Phu, Ward 7, District 3, Ho Chi Minh City. Accessible central business corridor with reserved delegate parking."
+      "badge": "Trung tâm",
+      "title": "Kết nối B2B 1:1",
+      "desc": "Không gian riêng tư được thiết kế dành riêng cho các cuộc thảo luận chuyên sâu và đàm phán hợp tác chiến lược."
     },
     "card2": {
-      "badge": "1:1 Meeting",
-      "title": "Business matching (1:1)",
-      "desc": "Private partitioned consultation booths equipped with dedicated translators, digital presentation monitors, and concierge support."
+      "badge": "Kết nối (1:1)",
+      "title": "Trình diễn Công nghệ",
+      "desc": "Trải nghiệm trực tiếp các giải pháp đột phá mới nhất từ 10 công ty công nghệ hàng đầu Hàn Quốc."
     },
     "card3": {
-      "badge": "Networking",
-      "title": "Network Lunch (12pm)-23 Oct",
-      "desc": "An intimate lunch to network, share ideas, and forge new collaboration opportunities."
+      "badge": "Kết nối",
+      "title": "Tiệc trưa Kết nối",
+      "desc": "Bữa trưa thân mật để gặp gỡ, giao lưu, chia sẻ ý tưởng và mở ra những cơ hội hợp tác mới."
     },
     "card4": {
-      "badge": "Networking",
-      "title": "Startup meet-up at dinner (6pm) on 23 Oct",
-      "desc": "A dinner meet-up for startups to network, share visions, and build strategic partnerships."
+      "badge": "Kết nối",
+      "title": "Dạ tiệc Giao lưu Khởi nghiệp",
+      "desc": "Đêm hội ngộ dành cho các startup nhằm chia sẻ tầm nhìn và thiết lập quan hệ đối tác chiến lược."
     },
     "card5": {
-      "badge": "Seminar",
-      "title": "Seminar by TechValley (Patrick kim)",
-      "desc": "TechValley Seminar with Patrick Kim: Navigating the future of AI and business strategy."
+      "badge": "Hội thảo",
+      "title": "Hội thảo chuyên đề bởi Tech Valley (Patrick Kim)",
+      "desc": "Buổi chia sẻ từ chuyên gia Patrick Kim về định hướng tương lai của AI và chiến lược kinh doanh."
     },
     "card6": {
-      "badge": "Research",
-      "title": "Market research by TechValley",
-      "desc": "In-depth Go-To-Market strategies and consulting insights for Smart City, Cloud computing, and AI sectors in Vietnam."
+      "badge": "Nghiên cứu",
+      "title": "Nghiên cứu thị trường bởi Tech Valley",
+      "desc": "Phân tích chuyên sâu về chiến lược tiếp cận thị trường và tư vấn cho các lĩnh vực Thành phố Thông minh, Điện toán Đám mây và AI tại Việt Nam."
     }
+  },
+  "companiesList": {
+    "ids": {
+      "name": "InData System",
+      "industry": "SẢN XUẤT",
+      "description": "Giải pháp xử lý dữ liệu vùng biên (edge data) và dữ liệu vận hành công nghiệp thông minh.",
+      "details": "Hệ thống dữ liệu thông minh cung cấp các cảm biến công nghiệp tự động và giải pháp truyền tải dữ liệu vận hành dành cho dây chuyền sản xuất quy mô lớn.",
+      "products": [
+        "Bộ kết nối Edge Data (EDC) - Trạm tổng hợp dữ liệu cảm biến IoT theo thời gian thực",
+        "IDS Factory Analytics - Bảng điều khiển đám mây theo dõi hiệu suất thiết bị (OEE) và thời gian ngưng máy"
+      ]
+    },
+    "deep-visions": {
+      "name": "DeepVisions",
+      "industry": "THỊ GIÁC MÁY TÍNH",
+      "description": "Hệ thống thị giác AI thông minh ứng dụng trong giao thông và bán lẻ.",
+      "details": "Thuật toán thị giác AI thế hệ mới, chuyên phân tích mật độ đám đông tại các khu vực giao thông công cộng và không gian bán lẻ.",
+      "products": [
+        "Transit Vision AI - Hệ thống đếm hành khách & cảnh báo mật độ",
+        "RetailHeatmap - Phần mềm theo dõi hành trình mua sắm của khách hàng tại cửa hàng"
+      ]
+    },
+    "hyperstar": {
+      "name": "Hyberstar",
+      "industry": "TIẾP THỊ AI",
+      "description": "Nền tảng Livestream bán hàng và tạo video ngắn tự động bằng AI.",
+      "details": "Giải pháp toàn diện cho thương mại trực tiếp (live-commerce) và chuỗi công cụ xử lý video ngắn tự động, được tinh chỉnh riêng cho thị trường thương mại mạng xã hội Đông Nam Á.",
+      "products": [
+        "HyperLive Studio - MC ảo và công nghệ tạo phông nền AI",
+        "ShortsAutomator - Công cụ tự động cắt video livestream 1 giờ thành các đoạn video ngắn cho TikTok"
+      ]
+    },
+    "quantit": {
+      "name": "Quantit",
+      "industry": "CÔNG NGHỆ TÀI CHÍNH",
+      "description": "Phân tích tài chính định lượng và mô hình hóa rủi ro tổ chức tự động.",
+      "details": "Động cơ tài chính định lượng tốc độ cao, hệ thống phân tích rủi ro tự động cấp tổ chức và các mô hình dự báo biến động danh mục đầu tư.",
+      "products": [
+        "Quantit FINTER - Công cụ AI tối ưu hóa danh mục đầu tư",
+        "RiskGuardian - API phát hiện bất thường và cảnh báo sụp đổ thị trường theo thời gian thực"
+      ]
+    },
+    "fieldro": {
+      "name": "Fieldro",
+      "industry": "CÔNG NGHỆ ROBOT",
+      "description": "Robot tự hành di động ứng dụng trong các môi trường công nghiệp phức tạp.",
+      "details": "Hệ thống robot tự hành di động ngoài trời, được thiết kế chuyên biệt cho các địa hình công nghiệp phức tạp, công trường xây dựng thông minh và bãi chứa container.",
+      "products": [
+        "FieldBot X1 - Robot tuần tra & kiểm tra ngoài trời chuyên tải trọng nặng",
+        "SiteMapper - Phần mềm lập bản đồ 3D LiDAR cho công trường xây dựng"
+      ]
+    },
+    "avalve": {
+      "name": "AVALVE",
+      "industry": "NÔNG NGHIỆP CÔNG NGHỆ CAO",
+      "description": "Nông nghiệp thông minh ứng dụng AI và chẩn đoán cây trồng theo thời gian thực.",
+      "details": "Nền tảng nông nghiệp thông minh tự động với khả năng chẩn đoán bệnh cây trồng theo thời gian thực, tự động cung cấp chất dinh dưỡng và tối ưu hóa điều kiện vi khí hậu.",
+      "products": [
+        "A-SmartFarm - Hệ thống điều khiển vi khí hậu & dinh dưỡng nhà kính tập trung",
+        "CropVision - Ứng dụng di động chẩn đoán tức thì bệnh trên lá cây"
+      ]
+    },
+    "cytur": {
+      "name": "CYTUR",
+      "industry": "AN NINH MẠNG",
+      "description": "Bảo mật an ninh mạng hàng hải cho tàu biển, cảng biển và hệ thống công nghệ vận hành (OT).",
+      "details": "Bộ giải pháp an ninh mạng hàng hải bảo vệ các tàu khai thác năng lượng ngoài khơi, hệ thống đo lường từ xa tại cảng biển và mạng lưới công nghệ vận hành (OT).",
+      "products": [
+        "CY-Shield Marine - Cổng truyền dữ liệu mã hóa từ tàu vào bờ",
+        "OT Intrusion Detector - Hệ thống giám sát mạng thụ động dành cho các bến cảng"
+      ]
+    },
+    "addd": {
+      "name": "addd",
+      "industry": "TÒA NHÀ THÔNG MINH",
+      "description": "Phân tích không gian và lưu lượng giao thông bằng công nghệ Edge Computing ẩn danh.",
+      "details": "Cảm biến lưu lượng giao thông ngoài trời được lập trình và hệ thống phân tích tương tác không gian biển quảng cáo kỹ thuật số thông qua công nghệ Edge Computing ẩn danh.",
+      "products": [
+        "SpaceSense Node - Camera Edge AI bảo mật quyền riêng tư để đếm lưu lượng người đi bộ",
+        "AdMetric Board - Thiết bị theo dõi ánh nhìn và sự chú ý trên biển quảng cáo kỹ thuật số"
+      ]
+    },
+    "gauss-lab": {
+      "name": "Gauss Lab",
+      "industry": "NĂNG LƯỢNG",
+      "description": "Cân bằng lưới điện sạch, tối ưu hóa pin và dự báo sản lượng điện mặt trời.",
+      "details": "Các mô hình cân bằng lưới điện sạch, tối ưu hóa vòng đời hệ thống lưu trữ năng lượng pin (ESS) và dữ liệu dự báo sản lượng điện mặt trời.",
+      "products": [
+        "Gauss ESS Optimizer - Thuật toán kéo dài tuổi thọ và tối ưu hóa sạc pin",
+        "SolarCast AI - Hệ thống dự báo siêu cục bộ sản lượng điện mặt trời trong 72 giờ"
+      ]
+    },
+    "nextlab": {
+      "name": "nextlab",
+      "industry": "TỰ ĐỘNG HÓA KIỂM THỬ",
+      "description": "Tự động hóa kiểm thử bằng AI và chuyển đổi số doanh nghiệp.",
+      "details": "Khuôn khổ tự động hóa kiểm thử bằng AI toàn diện dành cho viễn thông, kiểm tra luồng phần cứng đa phương tiện và đánh giá mức độ tuân thủ dịch vụ số của doanh nghiệp.",
+      "products": [
+        "AutoTester Pro - Nền tảng kiểm thử UI/UX tự động không cần lập trình (No-code)",
+        "StreamCheck - Thiết bị phân tích độ trễ phần cứng âm thanh/video theo thời gian thực"
+      ]
+    }
+  },
+  "legalModal": {
+    "privacyTitle": "Khung Quyền Riêng Tư",
+    "p1": "1. Thu thập dữ liệu: Chúng tôi thu thập thông tin liên hệ chuyên môn cần thiết để tạo điều kiện kết nối kinh doanh và đăng ký sự kiện (ví dụ: tên, công ty, chức danh, địa chỉ email).",
+    "p2": "2. Sử dụng thông tin: Thông tin chỉ được sử dụng để tổ chức tư vấn kinh doanh 1:1, cung cấp cập nhật sự kiện và điều phối hậu cần trước và trong HỘI NGHỊ THƯỢNG ĐỈNH SONG PHƯƠNG 2026.",
+    "p3": "3. Chia sẻ dữ liệu: Chi tiết chuyên môn của bạn có thể được chia sẻ với các đối tác phù hợp (công ty Hàn Quốc hoặc Việt Nam) đặc biệt cho mục đích lên lịch tư vấn. Dữ liệu sẽ không được bán cho các nhà tiếp thị bên thứ ba.",
+    "p4": "4. Bảo mật: Chúng tôi thực hiện các biện pháp bảo mật theo tiêu chuẩn ngành để đảm bảo dữ liệu của bạn được bảo vệ khỏi sự truy cập hoặc tiết lộ trái phép.",
+    "p5": "5. Quyền của bạn: Bạn có quyền yêu cầu truy cập, sửa đổi hoặc xóa dữ liệu cá nhân của mình bất kỳ lúc nào bằng cách liên hệ với đội ngũ hỗ trợ của chúng tôi.",
+    "termsTitle": "Điều Khoản Dịch Vụ",
+    "t1": "1. Tham gia sự kiện: Đăng ký HỘI NGHỊ THƯỢNG ĐỈNH SONG PHƯƠNG 2026 không đảm bảo sẽ được xác nhận. Ban tổ chức (KOSME & Tech Valley) có quyền lựa chọn người tham gia dựa trên mức độ liên quan đến kinh doanh và khả năng kết nối.",
+    "t2": "2. Quy tắc ứng xử: Tất cả các đại biểu được mong đợi sẽ cư xử chuyên nghiệp. Ban tổ chức có quyền thu hồi quyền truy cập đối với bất kỳ hành vi không phù hợp nào.",
+    "t3": "3. Phát hành phương tiện: Bằng cách tham dự sự kiện, bạn đồng ý việc bị chụp ảnh hoặc ghi hình. Những tài liệu này có thể được sử dụng cho mục đích quảng cáo và lưu trữ.",
+    "t4": "4. Sở hữu trí tuệ: Bất kỳ tài liệu, bài thuyết trình hoặc dữ liệu nào được chia sẻ trong các phiên phát biểu chính hoặc các cuộc tư vấn 1:1 vẫn là tài sản trí tuệ của chủ sở hữu tương ứng.",
+    "t5": "5. Trách nhiệm pháp lý: Ban tổ chức không chịu trách nhiệm về bất kỳ kết quả kinh doanh, quan hệ đối tác hoặc thỏa thuận trực tiếp hoặc gián tiếp nào phát sinh từ các cuộc tư vấn được tổ chức trong hội nghị thượng đỉnh.",
+    "understand": "Tôi Đã Hiểu"
   }
 }

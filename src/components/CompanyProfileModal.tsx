@@ -35,13 +35,13 @@ export default function CompanyProfileModal({ company, onClose, onBook }: Props)
           <div className="p-8 md:p-12 border-b border-gray-100 flex justify-between items-center bg-soft-gray/50 sticky top-0 z-10 backdrop-blur-md">
             <div className="flex items-center space-x-4">
                <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center border border-gray-100 shadow-sm p-2">
-                  <img src={`/assets/logos/${company.id}.png`} alt={`${company.name} logo`} className="w-full h-full object-contain" />
+                  <img src={`/assets/logos/${company.id}.png`} alt={t(`companiesList.${company.id}.name`, { defaultValue: company.name })} className="w-full h-full object-contain" />
                </div>
                <div>
-                  <h2 className="text-2xl font-bold text-deep-navy">{company.name}</h2>
+                  <h2 className="text-2xl font-bold text-deep-navy">{t(`companiesList.${company.id}.name`, { defaultValue: company.name })}</h2>
                   <div className="flex items-center space-x-3 mt-1">
-                    <span className="px-2 py-0.5 bg-very-light-blue text-corporate-blue text-[10px] font-bold tracking-wider rounded">BOOTH {company.booth}</span>
-                    <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider">{company.industry}</span>
+                    <span className="px-2 py-0.5 bg-very-light-blue text-corporate-blue text-[10px] font-bold tracking-wider rounded">{t('companies.booth')} {company.booth}</span>
+                    <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider">{t(`companiesList.${company.id}.industry`, { defaultValue: company.industry })}</span>
                   </div>
                </div>
             </div>
@@ -52,7 +52,7 @@ export default function CompanyProfileModal({ company, onClose, onBook }: Props)
           
           <div className="p-8 md:p-12 flex-grow">
             <h3 className="text-xl font-bold text-deep-navy mb-6">{t('companies.title')}</h3>
-            <p className="text-gray-600 text-lg leading-relaxed mb-8">{company.details}</p>
+            <p className="text-gray-600 text-lg leading-relaxed mb-8">{t(`companiesList.${company.id}.details`, { defaultValue: company.details })}</p>
             
             <div className="bg-soft-gray p-8 rounded-xl border border-gray-100 mb-12">
               <h4 className="font-bold text-deep-navy mb-2 flex items-center">

@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2 } from 'lucide-react';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../firebase';
+import { companies } from '../data/companies';
 
 export default function RegistrationForm() {
   const { t } = useTranslation();
@@ -104,16 +105,9 @@ export default function RegistrationForm() {
                   <label className="block text-xs font-bold text-gray-500 tracking-wider mb-2">{t('registration.form.preferredPartner')}</label>
                   <select name="preferredPartner" className="w-full bg-soft-gray border border-gray-200 px-4 py-3 rounded focus:outline-none focus:border-corporate-blue focus:ring-1 focus:ring-corporate-blue transition-colors text-deep-navy appearance-none">
                     <option value="">{t('registration.form.selectPartner')}</option>
-                    <option value="ids">IDS</option>
-                    <option value="deep-visions">deep visions</option>
-                    <option value="hyperstar">hyperstar</option>
-                    <option value="quantit">Quantit</option>
-                    <option value="fieldro">FieldRo</option>
-                    <option value="avalve">AVALVE</option>
-                    <option value="cytur">CYTUR</option>
-                    <option value="addd">addd</option>
-                    <option value="gauss-lab">GAUSS LAB</option>
-                    <option value="nextlab">nextlab</option>
+                    {companies.map(c => (
+                      <option key={c.id} value={c.id}>{t(`companiesList.${c.id}.name`, { defaultValue: c.name })}</option>
+                    ))}
                   </select>
                 </div>
                 
@@ -166,7 +160,7 @@ export default function RegistrationForm() {
           
           <div className="mt-12 flex flex-col items-center justify-center border-t border-gray-100 pt-8">
              <div className="w-32 h-32 bg-white border border-gray-200 p-2 rounded shadow-sm mb-4">
-               <img src="/assets/qr-code.jpg" alt="Event QR Code" className="w-full h-full object-contain" />
+               <img src="/assets/qr-code.jpg" alt={t("registration.qrCode")} className="w-full h-full object-contain" />
              </div>
              <p className="text-xs font-bold text-gray-400 tracking-widest uppercase">{t('registration.calendar')}</p>
           </div>

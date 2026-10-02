@@ -34,12 +34,12 @@ export default function Header() {
         <div className="flex justify-start">
           <a href="#" className="flex items-center space-x-3 sm:space-x-4 group">
             <div className="relative h-12 sm:h-14 flex items-center justify-center bg-white rounded-xl px-3 shadow-lg shadow-black/5 border border-gray-100/50 group-hover:shadow-corporate-blue/20 transition-all duration-500 overflow-hidden">
-               <img src="/assets/kosmereal.jpg" alt="Kosme Logo" className="h-7 sm:h-9 object-contain mix-blend-multiply" />
+               <img src="/assets/kosmereal.jpg" alt="KOSME" className="h-7 sm:h-9 object-contain mix-blend-multiply" />
                <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/40 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-full transition-all duration-1000 ease-in-out -translate-x-full transform skew-x-12"></div>
             </div>
             <div className="hidden sm:block w-px h-8 bg-gray-200"></div>
             <div className="relative h-12 sm:h-14 flex items-center justify-center bg-white rounded-xl px-3 shadow-lg shadow-black/5 border border-gray-100/50 group-hover:shadow-corporate-blue/20 transition-all duration-500 overflow-hidden">
-               <img src="/assets/techvalleyreal.jpg" alt="Tech Valley Logo" className="h-7 sm:h-9 object-contain mix-blend-multiply" />
+               <img src="/assets/techvalleyreal.jpg" alt="Tech Valley" className="h-7 sm:h-9 object-contain mix-blend-multiply" />
                <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/40 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-full transition-all duration-1000 ease-in-out -translate-x-full transform skew-x-12"></div>
             </div>
           </a>
@@ -103,10 +103,10 @@ export default function Header() {
             <div className="flex justify-between items-center mb-12">
               <div className="flex items-center space-x-3">
                 <div className="relative h-12 flex items-center justify-center bg-white rounded-xl px-3 shadow-sm border border-gray-100/50 overflow-hidden">
-                   <img src="/assets/kosmereal.jpg" alt="Kosme Logo" className="h-7 object-contain mix-blend-multiply" />
+                   <img src="/assets/kosmereal.jpg" alt="KOSME" className="h-7 object-contain mix-blend-multiply" />
                 </div>
                 <div className="relative h-12 flex items-center justify-center bg-white rounded-xl px-3 shadow-sm border border-gray-100/50 overflow-hidden">
-                   <img src="/assets/techvalleyreal.jpg" alt="Tech Valley Logo" className="h-7 object-contain mix-blend-multiply" />
+                   <img src="/assets/techvalleyreal.jpg" alt="Tech Valley" className="h-7 object-contain mix-blend-multiply" />
                 </div>
               </div>
               <button onClick={() => setMobileMenuOpen(false)} className="text-gray-500 p-2">
