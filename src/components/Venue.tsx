@@ -17,9 +17,9 @@ export default function Venue() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-bold text-deep-navy tracking-tight mb-8">
-              {t('venue.title').split(' ').map((word, i) => (
+              {t('venue.title').split('\n').map((part, i) => (
                 <React.Fragment key={i}>
-                  {i === 0 ? <span className="block text-corporate-blue mb-2 text-2xl tracking-widest">{word}</span> : word + ' '}
+                  {i === 0 ? <span className="block text-corporate-blue mb-2 text-2xl tracking-widest">{part}</span> : part}
                 </React.Fragment>
               ))}
             </h2>
