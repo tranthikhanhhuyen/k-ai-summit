@@ -202,7 +202,9 @@
       "company": "소속 기관 / 기업 *",
       "phone": "휴대전화 연락처 *",
       "industry": "주요 산업 분야 *",
-      "preferredPartner": "선호하는 한국 인공지능 파트너",
+      "preferredPartner": "선호하는 한국 인공지능 파트너 *",
+      "preferredTime": "선호하는 비즈니스 매칭 시간 *",
+      "selectTime": "시간 선택",
       "objective": "상담 목적",
       "objectives": {
         "pilot": "파일럿",

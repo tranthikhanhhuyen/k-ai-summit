@@ -202,7 +202,9 @@
       "company": "ORGANIZATION / COMPANY *",
       "phone": "MOBILE CONTACT *",
       "industry": "PRIMARY INDUSTRY *",
-      "preferredPartner": "PREFERRED KOREAN AI PARTNER",
+      "preferredPartner": "PREFERRED KOREAN AI PARTNER *",
+      "preferredTime": "PREFERRED BIZ MATCHING TIME *",
+      "selectTime": "Select a time slot",
       "objective": "CONSULTATION OBJECTIVE",
       "objectives": {
         "pilot": "Pilot",

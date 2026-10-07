@@ -25,6 +25,7 @@ export default function RegistrationForm() {
       phone: formData.get('phone'),
       industry: formData.get('industry'),
       preferredPartner: formData.get('preferredPartner'),
+      preferredTime: formData.get('preferredTime'),
       needsInterpreter: formData.get('needsInterpreter') === 'on',
       needsTransportation: formData.get('needsTransportation') === 'on'
     };
@@ -101,14 +102,29 @@ export default function RegistrationForm() {
                   </select>
                 </div>
 
-                <div>
-                  <label className="block text-xs font-bold text-gray-500 tracking-wider mb-2">{t('registration.form.preferredPartner')}</label>
-                  <select name="preferredPartner" className="w-full bg-soft-gray border border-gray-200 px-4 py-3 rounded focus:outline-none focus:border-corporate-blue focus:ring-1 focus:ring-corporate-blue transition-colors text-deep-navy appearance-none">
-                    <option value="">{t('registration.form.selectPartner')}</option>
-                    {companies.map(c => (
-                      <option key={c.id} value={c.id}>{t(`companiesList.${c.id}.name`, { defaultValue: c.name })}</option>
-                    ))}
-                  </select>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="block text-xs font-bold text-gray-500 tracking-wider mb-2">{t('registration.form.preferredPartner')}</label>
+                    <select name="preferredPartner" required className="w-full bg-soft-gray border border-gray-200 px-4 py-3 rounded focus:outline-none focus:border-corporate-blue focus:ring-1 focus:ring-corporate-blue transition-colors text-deep-navy appearance-none">
+                      <option value="">{t('registration.form.selectPartner')}</option>
+                      {companies.map(c => (
+                        <option key={c.id} value={c.id}>{t(`companiesList.${c.id}.name`, { defaultValue: c.name })}</option>
+                      ))}
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block text-xs font-bold text-gray-500 tracking-wider mb-2">{t('registration.form.preferredTime')}</label>
+                    <select name="preferredTime" required className="w-full bg-soft-gray border border-gray-200 px-4 py-3 rounded focus:outline-none focus:border-corporate-blue focus:ring-1 focus:ring-corporate-blue transition-colors text-deep-navy appearance-none">
+                      <option value="">{t('registration.form.selectTime')}</option>
+                      <option value="1st : 09:00 - 09:40">1st : 09:00 - 09:40</option>
+                      <option value="2nd : 10:00 - 10:40">2nd : 10:00 - 10:40</option>
+                      <option value="3rd : 11:00 - 11:40">3rd : 11:00 - 11:40</option>
+                      <option value="4th : 13:30 - 14:10">4th : 13:30 - 14:10</option>
+                      <option value="5th : 14:20 - 15:10">5th : 14:20 - 15:10</option>
+                      <option value="6th : 15:20 - 16:20">6th : 15:20 - 16:20</option>
+                      <option value="7th : 16:30 - 17:00">7th : 16:30 - 17:00</option>
+                    </select>
+                  </div>
                 </div>
                 
                 <div className="pt-4 space-y-4">

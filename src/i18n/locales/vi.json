@@ -205,7 +205,9 @@
       "company": "CƠ QUAN / CÔNG TY *",
       "phone": "SỐ ĐIỆN THOẠI DI ĐỘNG *",
       "industry": "LĨNH VỰC NGÀNH NGHỀ CHÍNH *",
-      "preferredPartner": "DOANH NGHIỆP HÀN QUỐC MUỐN GẶP",
+      "preferredPartner": "DOANH NGHIỆP HÀN QUỐC MUỐN GẶP *",
+      "preferredTime": "THỜI GIAN MUỐN KẾT NỐI (BIZ MATCHING) *",
+      "selectTime": "Chọn thời gian",
       "objective": "MỤC TIÊU KẾT NỐI KINH DOANH",
       "objectives": {
         "pilot": "Thử nghiệm",
