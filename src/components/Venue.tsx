@@ -3,6 +3,9 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { MapPin, Navigation } from 'lucide-react';
 
+const venueMapUrl = 'https://www.google.com/maps?q=123+Tr%C6%B0%C6%A1ng+%C4%90%E1%BB%8Bnh,+Ph%C6%B0%E1%BB%9Dng+Xu%C3%A2n+H%C3%B2a,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh&output=embed';
+const directionsUrl = 'https://www.google.com/maps/search/?api=1&query=123%20Tr%C6%B0%C6%A1ng%20%C4%90%E1%BB%8Bnh%2C%20Ph%C6%B0%E1%BB%9Dng%20Xu%C3%A2n%20H%C3%B2a%2C%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh';
+
 export default function Venue() {
   const { t } = useTranslation();
 
@@ -31,7 +34,7 @@ export default function Venue() {
               </p>
             </div>
             
-            <a href="#" className="inline-flex items-center text-deep-navy font-bold tracking-widest text-sm hover:text-corporate-blue transition-colors group">
+            <a href={directionsUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-deep-navy font-bold tracking-widest text-sm hover:text-corporate-blue transition-colors group">
               <Navigation className="w-4 h-4 mr-2" />
               {t('venue.getDirections')}
               <span className="block absolute bottom-0 left-0 w-0 h-0.5 bg-corporate-blue transition-all group-hover:w-full"></span>
@@ -42,7 +45,7 @@ export default function Venue() {
         {/* Right: Map Visualization */}
         <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-[500px]">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.278361026048!2d106.68748301138243!3d10.790013058866734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528cd61d76b1f%3A0xc3c544faeebf7514!2sSaigon%20Innovation%20Hub!5e0!3m2!1sen!2svn!4v1700000000000!5m2!1sen!2svn" 
+            src={venueMapUrl}
             className="absolute inset-0 w-full h-full border-0 grayscale hover:grayscale-0 transition-all duration-700"
             allowFullScreen={true} 
             loading="lazy" 

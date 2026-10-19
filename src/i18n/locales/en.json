@@ -189,8 +189,8 @@
     }
   },
   "venue": {
-    "title": "SIHUB\nSAIGON INNOVATION HUB",
-    "address": "2nd Floor\n273 Dien Bien Phu\nDistrict 3\nHo Chi Minh City\nVietnam",
+    "title": "Ho Chi Minh City Center for Creative Entrepreneurship\n(SIHUB)",
+    "address": "123 Truong Dinh Street\nXuan Hoa Ward\nHo Chi Minh City\nVietnam",
     "getDirections": "GET DIRECTIONS"
   },
   "registration": {
@@ -276,7 +276,7 @@
     "card1": {
       "badge": "SIHUB",
       "title": "SIHUB",
-      "desc": "273 Dien Bien Phu, Ward 7, District 3, Ho Chi Minh City. Accessible central business corridor with reserved delegate parking."
+      "desc": "123 Truong Dinh Street, Xuan Hoa Ward, Ho Chi Minh City. Accessible central business corridor with reserved delegate parking."
     },
     "card2": {
       "badge": "1:1 Meeting",

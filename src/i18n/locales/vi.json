@@ -1,7 +1,7 @@
 {
   "header": {
     "organization": "KOSME × TECH VALLEY",
-    "dateLocation": "23 THÁNG 10, 2026 · Trung tâm Đổi mới sáng tạo Sài Gòn (SIHUB)",
+    "dateLocation": "23 THÁNG 10, 2026 · Trung tâm Khởi nghiệp sáng tạo Thành phố Hồ Chí Minh",
     "perks": "Tặng mã ứng dụng gọi xe và phiếu ăn uống cho người tham dự",
     "title": "K-AI – Kết Nối Chuỗi Giá Trị Toàn Cầu - Kết Nối Kinh Doanh",
     "nav": {
@@ -24,7 +24,7 @@
     "registerBtn": "ĐĂNG KÝ KẾT NỐI 1:1",
     "downloadPdf": "TẢI CHƯƠNG TRÌNH (PDF)",
     "date": "23 THÁNG 10, 2026",
-    "venue": "Trung tâm Đổi mới sáng tạo Sài Gòn (SIHUB), TP. HỒ CHÍ MINH",
+    "venue": "Trung tâm Khởi nghiệp sáng tạo Thành phố Hồ Chí Minh, TP. HỒ CHÍ MINH",
     "duration": "SỰ KIỆN CẢ NGÀY",
     "contact": {
       "email": "giang@techvalleyvn.net",
@@ -33,7 +33,7 @@
   },
   "snapshot": {
     "date": "23 THG 10 2026",
-    "venue": "Trung tâm Đổi mới sáng tạo Sài Gòn (SIHUB), TP. HỒ CHÍ MINH",
+    "venue": "Trung tâm Khởi nghiệp sáng tạo Thành phố Hồ Chí Minh, TP. HỒ CHÍ MINH",
     "companies": "DOANH NGHIỆP HÀN QUỐC",
     "matching": "KẾT NỐI KINH DOANH 1:1"
   },
@@ -192,8 +192,8 @@
     }
   },
   "venue": {
-    "title": "Trung tâm\nĐổi mới sáng tạo Sài Gòn (SIHUB)",
-    "address": "Tầng 2\n273 Điện Biên Phủ\nPhường 7, Quận 3\nTP. Hồ Chí Minh\nViệt Nam",
+    "title": "Trung tâm Khởi nghiệp sáng tạo Thành phố Hồ Chí Minh\n(Trung tâm Khởi nghiệp sáng tạo TP.HCM)",
+    "address": "123 Trương Định\nPhường Xuân Hòa\nThành phố Hồ Chí Minh",
     "getDirections": "CHỈ ĐƯỜNG"
   },
   "registration": {
@@ -269,7 +269,7 @@
   },
   "logistics": {
     "sectionLabel": "Chương Trình và Địa Điểm",
-    "title": "Trung tâm Đổi mới sáng tạo Sài Gòn",
+    "title": "Trung tâm Khởi nghiệp sáng tạo Thành phố Hồ Chí Minh",
     "subtitle": "Tổ chức tại trung tâm đổi mới công nghệ hàng đầu của TP.HCM. Không gian họp tiêu chuẩn và tiện nghi đầy đủ cho người tham dự.",
     "badge": {
       "prefix": "Miễn phí mã di chuyển & ",
@@ -279,7 +279,7 @@
     "card1": {
       "badge": "Trung tâm",
       "title": "Kết nối B2B 1:1",
-      "desc": "Không gian riêng tư được thiết kế dành riêng cho các cuộc thảo luận chuyên sâu và đàm phán hợp tác chiến lược."
+      "desc": "123 Trương Định, Phường Xuân Hòa, Thành phố Hồ Chí Minh. Không gian riêng tư được thiết kế dành riêng cho các cuộc thảo luận chuyên sâu và đàm phán hợp tác chiến lược."
     },
     "card2": {
       "badge": "Kết nối (1:1)",

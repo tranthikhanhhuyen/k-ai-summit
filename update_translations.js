@@ -18,7 +18,7 @@ const enData = {
   "card1": {
     "badge": "SIHUB Facility • 2nd Floor",
     "title": "Central Innovation Hub",
-    "desc": "273 Dien Bien Phu, Ward 7, District 3, Ho Chi Minh City. Accessible central business corridor with reserved delegate parking."
+    "desc": "123 Truong Dinh Street, Xuan Hoa Ward, Ho Chi Minh City. Accessible central business corridor with reserved delegate parking."
   },
   "card2": {
     "badge": "Keynote & Tech Showcase",
@@ -59,7 +59,7 @@ const viData = {
   "card1": {
     "badge": "Cơ sở SIHUB • Tầng 2",
     "title": "Trung tâm Đổi mới",
-    "desc": "273 Điện Biên Phủ, Phường 7, Quận 3, TP.HCM. Tuyến đường trung tâm dễ dàng tiếp cận, có bãi đậu xe riêng."
+    "desc": "123 Trương Định, Phường Xuân Hòa, Thành phố Hồ Chí Minh. Tuyến đường trung tâm dễ dàng tiếp cận, có bãi đậu xe riêng."
   },
   "card2": {
     "badge": "Sân khấu Keynote",
@@ -100,7 +100,7 @@ const krData = {
   "card1": {
     "badge": "SIHUB 시설 • 2층",
     "title": "중앙 이노베이션 허브",
-    "desc": "호치민 시 3군 7동 디엔비엔푸 273. 접근성이 뛰어난 비즈니스 중심지이며 전용 주차장이 있습니다."
+    "desc": "호치민시 쑤언호아동 쯔엉딘 123. 접근성이 뛰어난 비즈니스 중심지이며 전용 주차장이 있습니다."
   },
   "card2": {
     "badge": "기조 연설 및 기술 쇼케이스",
@@ -132,4 +132,3 @@ const krData = {
 addLogisticsToLocale('src/i18n/locales/en.json', enData);
 addLogisticsToLocale('src/i18n/locales/vi.json', viData);
 addLogisticsToLocale('src/i18n/locales/kr.json', krData);
-
